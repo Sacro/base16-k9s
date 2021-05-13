@@ -1,0 +1,75 @@
+# Base16 pinky - k9s color config
+# Scheme author: Benjamin (https://github.com/b3nj5m1n)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#f5f5f5'
+    bgColor: '#171517'
+    logoColor: '#6600ff'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#ff0066'
+    sectionColor: '#f5f5f5'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#00ffff'
+      focusColor: '#6600ff'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#f5f5f5'
+      keyColor: '#ff0066'
+      # Used for favorite namespaces
+      numKeyColor: '#ff0066'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#6600ff'
+      bgColor: '#171517'
+      activeColor: '#171517'
+
+    # Resource status and update styles
+    status:
+      newColor: '#f5f5f5'
+      modifyColor: '#20df6c'
+      addColor: '#ff0066'
+      errorColor: '#ffa600'
+      highlightcolor: '#6600ff'
+      killColor: '#ffa600'
+      completedColor: '#ff0066'
+
+    # Border title styles.
+    title:
+      fgColor: '#f5f5f5'
+      bgColor: '#171517'
+      highlightColor: '#007fff'
+      counterColor: '#007fff'
+      filterColor: '#007fff'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#00ffff'
+      bgColor: '#171517'
+      cursorColor: '#6600ff'
+      # Header row styles.
+      header:
+        fgColor: '#00ffff'
+        bgColor: '#171517'
+        sorterColor: '#007fff'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ffa600'
+      colonColor: '#6600ff'
+      valueColor: '#f5f5f5'
+
+    # Logs styles.
+    logs:
+      fgColor: '#f5f5f5'
+      bgColor: '#171517'

@@ -1,0 +1,75 @@
+# Base16 Equilibrium Gray Dark - k9s color config
+# Scheme author: Carlo Abelli
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#ababab'
+    bgColor: '#111111'
+    logoColor: '#00948b'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#7f8b00'
+    sectionColor: '#ababab'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#008dd1'
+      focusColor: '#00948b'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#ababab'
+      keyColor: '#7f8b00'
+      # Used for favorite namespaces
+      numKeyColor: '#7f8b00'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#00948b'
+      bgColor: '#111111'
+      activeColor: '#111111'
+
+    # Resource status and update styles
+    status:
+      newColor: '#ababab'
+      modifyColor: '#bb8801'
+      addColor: '#7f8b00'
+      errorColor: '#f04339'
+      highlightcolor: '#00948b'
+      killColor: '#f04339'
+      completedColor: '#7f8b00'
+
+    # Border title styles.
+    title:
+      fgColor: '#ababab'
+      bgColor: '#111111'
+      highlightColor: '#6a7fd2'
+      counterColor: '#6a7fd2'
+      filterColor: '#6a7fd2'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#008dd1'
+      bgColor: '#111111'
+      cursorColor: '#00948b'
+      # Header row styles.
+      header:
+        fgColor: '#008dd1'
+        bgColor: '#111111'
+        sorterColor: '#6a7fd2'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#f04339'
+      colonColor: '#00948b'
+      valueColor: '#ababab'
+
+    # Logs styles.
+    logs:
+      fgColor: '#ababab'
+      bgColor: '#111111'

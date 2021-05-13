@@ -1,0 +1,75 @@
+# Base16 Sandcastle - k9s color config
+# Scheme author: George Essig (https://github.com/gessig)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a89984'
+    bgColor: '#282c34'
+    logoColor: '#83a598'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#528b8b'
+    sectionColor: '#a89984'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#83a598'
+      focusColor: '#83a598'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a89984'
+      keyColor: '#528b8b'
+      # Used for favorite namespaces
+      numKeyColor: '#528b8b'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#83a598'
+      bgColor: '#282c34'
+      activeColor: '#282c34'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a89984'
+      modifyColor: '#a07e3b'
+      addColor: '#528b8b'
+      errorColor: '#83a598'
+      highlightcolor: '#83a598'
+      killColor: '#83a598'
+      completedColor: '#528b8b'
+
+    # Border title styles.
+    title:
+      fgColor: '#a89984'
+      bgColor: '#282c34'
+      highlightColor: '#d75f5f'
+      counterColor: '#d75f5f'
+      filterColor: '#d75f5f'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#83a598'
+      bgColor: '#282c34'
+      cursorColor: '#83a598'
+      # Header row styles.
+      header:
+        fgColor: '#83a598'
+        bgColor: '#282c34'
+        sorterColor: '#d75f5f'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#83a598'
+      colonColor: '#83a598'
+      valueColor: '#a89984'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a89984'
+      bgColor: '#282c34'

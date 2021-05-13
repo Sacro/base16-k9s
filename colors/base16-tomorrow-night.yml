@@ -1,0 +1,75 @@
+# Base16 Tomorrow Night - k9s color config
+# Scheme author: Chris Kempson (http://chriskempson.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c5c8c6'
+    bgColor: '#1d1f21'
+    logoColor: '#8abeb7'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#b5bd68'
+    sectionColor: '#c5c8c6'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#81a2be'
+      focusColor: '#8abeb7'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c5c8c6'
+      keyColor: '#b5bd68'
+      # Used for favorite namespaces
+      numKeyColor: '#b5bd68'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#8abeb7'
+      bgColor: '#1d1f21'
+      activeColor: '#1d1f21'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c5c8c6'
+      modifyColor: '#f0c674'
+      addColor: '#b5bd68'
+      errorColor: '#cc6666'
+      highlightcolor: '#8abeb7'
+      killColor: '#cc6666'
+      completedColor: '#b5bd68'
+
+    # Border title styles.
+    title:
+      fgColor: '#c5c8c6'
+      bgColor: '#1d1f21'
+      highlightColor: '#b294bb'
+      counterColor: '#b294bb'
+      filterColor: '#b294bb'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#81a2be'
+      bgColor: '#1d1f21'
+      cursorColor: '#8abeb7'
+      # Header row styles.
+      header:
+        fgColor: '#81a2be'
+        bgColor: '#1d1f21'
+        sorterColor: '#b294bb'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#cc6666'
+      colonColor: '#8abeb7'
+      valueColor: '#c5c8c6'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c5c8c6'
+      bgColor: '#1d1f21'

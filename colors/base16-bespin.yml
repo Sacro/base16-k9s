@@ -1,0 +1,75 @@
+# Base16 Bespin - k9s color config
+# Scheme author: Jan T. Sott
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#8a8986'
+    bgColor: '#28211c'
+    logoColor: '#afc4db'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#54be0d'
+    sectionColor: '#8a8986'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#5ea6ea'
+      focusColor: '#afc4db'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#8a8986'
+      keyColor: '#54be0d'
+      # Used for favorite namespaces
+      numKeyColor: '#54be0d'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#afc4db'
+      bgColor: '#28211c'
+      activeColor: '#28211c'
+
+    # Resource status and update styles
+    status:
+      newColor: '#8a8986'
+      modifyColor: '#f9ee98'
+      addColor: '#54be0d'
+      errorColor: '#cf6a4c'
+      highlightcolor: '#afc4db'
+      killColor: '#cf6a4c'
+      completedColor: '#54be0d'
+
+    # Border title styles.
+    title:
+      fgColor: '#8a8986'
+      bgColor: '#28211c'
+      highlightColor: '#9b859d'
+      counterColor: '#9b859d'
+      filterColor: '#9b859d'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#5ea6ea'
+      bgColor: '#28211c'
+      cursorColor: '#afc4db'
+      # Header row styles.
+      header:
+        fgColor: '#5ea6ea'
+        bgColor: '#28211c'
+        sorterColor: '#9b859d'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#cf6a4c'
+      colonColor: '#afc4db'
+      valueColor: '#8a8986'
+
+    # Logs styles.
+    logs:
+      fgColor: '#8a8986'
+      bgColor: '#28211c'

@@ -1,0 +1,75 @@
+# Base16 PaperColor Light - k9s color config
+# Scheme author: Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#444444'
+    bgColor: '#eeeeee'
+    logoColor: '#d75f00'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#8700af'
+    sectionColor: '#444444'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#d75f00'
+      focusColor: '#d75f00'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#444444'
+      keyColor: '#8700af'
+      # Used for favorite namespaces
+      numKeyColor: '#8700af'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#d75f00'
+      bgColor: '#eeeeee'
+      activeColor: '#eeeeee'
+
+    # Resource status and update styles
+    status:
+      newColor: '#444444'
+      modifyColor: '#d70087'
+      addColor: '#8700af'
+      errorColor: '#bcbcbc'
+      highlightcolor: '#d75f00'
+      killColor: '#bcbcbc'
+      completedColor: '#8700af'
+
+    # Border title styles.
+    title:
+      fgColor: '#444444'
+      bgColor: '#eeeeee'
+      highlightColor: '#005faf'
+      counterColor: '#005faf'
+      filterColor: '#005faf'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#d75f00'
+      bgColor: '#eeeeee'
+      cursorColor: '#d75f00'
+      # Header row styles.
+      header:
+        fgColor: '#d75f00'
+        bgColor: '#eeeeee'
+        sorterColor: '#005faf'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#bcbcbc'
+      colonColor: '#d75f00'
+      valueColor: '#444444'
+
+    # Logs styles.
+    logs:
+      fgColor: '#444444'
+      bgColor: '#eeeeee'

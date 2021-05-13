@@ -1,0 +1,75 @@
+# Base16 Dark Violet - k9s color config
+# Scheme author: ruler501 (https://github.com/ruler501/base16-darkviolet)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#b08ae6'
+    bgColor: '#000000'
+    logoColor: '#40dfff'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#4595e6'
+    sectionColor: '#b08ae6'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#4136d9'
+      focusColor: '#40dfff'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#b08ae6'
+      keyColor: '#4595e6'
+      # Used for favorite namespaces
+      numKeyColor: '#4595e6'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#40dfff'
+      bgColor: '#000000'
+      activeColor: '#000000'
+
+    # Resource status and update styles
+    status:
+      newColor: '#b08ae6'
+      modifyColor: '#f29df2'
+      addColor: '#4595e6'
+      errorColor: '#a82ee6'
+      highlightcolor: '#40dfff'
+      killColor: '#a82ee6'
+      completedColor: '#4595e6'
+
+    # Border title styles.
+    title:
+      fgColor: '#b08ae6'
+      bgColor: '#000000'
+      highlightColor: '#7e5ce6'
+      counterColor: '#7e5ce6'
+      filterColor: '#7e5ce6'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#4136d9'
+      bgColor: '#000000'
+      cursorColor: '#40dfff'
+      # Header row styles.
+      header:
+        fgColor: '#4136d9'
+        bgColor: '#000000'
+        sorterColor: '#7e5ce6'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#a82ee6'
+      colonColor: '#40dfff'
+      valueColor: '#b08ae6'
+
+    # Logs styles.
+    logs:
+      fgColor: '#b08ae6'
+      bgColor: '#000000'

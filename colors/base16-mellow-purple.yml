@@ -1,0 +1,75 @@
+# Base16 Mellow Purple - k9s color config
+# Scheme author: gidsi
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#ffeeff'
+    bgColor: '#1e0528'
+    logoColor: '#b900b1'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#05cb0d'
+    sectionColor: '#ffeeff'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#550068'
+      focusColor: '#b900b1'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#ffeeff'
+      keyColor: '#05cb0d'
+      # Used for favorite namespaces
+      numKeyColor: '#05cb0d'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#b900b1'
+      bgColor: '#1e0528'
+      activeColor: '#1e0528'
+
+    # Resource status and update styles
+    status:
+      newColor: '#ffeeff'
+      modifyColor: '#955ae7'
+      addColor: '#05cb0d'
+      errorColor: '#00d9e9'
+      highlightcolor: '#b900b1'
+      killColor: '#00d9e9'
+      completedColor: '#05cb0d'
+
+    # Border title styles.
+    title:
+      fgColor: '#ffeeff'
+      bgColor: '#1e0528'
+      highlightColor: '#8991bb'
+      counterColor: '#8991bb'
+      filterColor: '#8991bb'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#550068'
+      bgColor: '#1e0528'
+      cursorColor: '#b900b1'
+      # Header row styles.
+      header:
+        fgColor: '#550068'
+        bgColor: '#1e0528'
+        sorterColor: '#8991bb'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#00d9e9'
+      colonColor: '#b900b1'
+      valueColor: '#ffeeff'
+
+    # Logs styles.
+    logs:
+      fgColor: '#ffeeff'
+      bgColor: '#1e0528'

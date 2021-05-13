@@ -1,0 +1,75 @@
+# Base16 Bright - k9s color config
+# Scheme author: Chris Kempson (http://chriskempson.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#e0e0e0'
+    bgColor: '#000000'
+    logoColor: '#76c7b7'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#a1c659'
+    sectionColor: '#e0e0e0'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#6fb3d2'
+      focusColor: '#76c7b7'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#e0e0e0'
+      keyColor: '#a1c659'
+      # Used for favorite namespaces
+      numKeyColor: '#a1c659'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#76c7b7'
+      bgColor: '#000000'
+      activeColor: '#000000'
+
+    # Resource status and update styles
+    status:
+      newColor: '#e0e0e0'
+      modifyColor: '#fda331'
+      addColor: '#a1c659'
+      errorColor: '#fb0120'
+      highlightcolor: '#76c7b7'
+      killColor: '#fb0120'
+      completedColor: '#a1c659'
+
+    # Border title styles.
+    title:
+      fgColor: '#e0e0e0'
+      bgColor: '#000000'
+      highlightColor: '#d381c3'
+      counterColor: '#d381c3'
+      filterColor: '#d381c3'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#6fb3d2'
+      bgColor: '#000000'
+      cursorColor: '#76c7b7'
+      # Header row styles.
+      header:
+        fgColor: '#6fb3d2'
+        bgColor: '#000000'
+        sorterColor: '#d381c3'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#fb0120'
+      colonColor: '#76c7b7'
+      valueColor: '#e0e0e0'
+
+    # Logs styles.
+    logs:
+      fgColor: '#e0e0e0'
+      bgColor: '#000000'

@@ -1,0 +1,75 @@
+# Base16 Marrakesh - k9s color config
+# Scheme author: Alexandre Gavioli (http://github.com/Alexx2/)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#948e48'
+    bgColor: '#201602'
+    logoColor: '#75a738'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#18974e'
+    sectionColor: '#948e48'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#477ca1'
+      focusColor: '#75a738'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#948e48'
+      keyColor: '#18974e'
+      # Used for favorite namespaces
+      numKeyColor: '#18974e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#75a738'
+      bgColor: '#201602'
+      activeColor: '#201602'
+
+    # Resource status and update styles
+    status:
+      newColor: '#948e48'
+      modifyColor: '#a88339'
+      addColor: '#18974e'
+      errorColor: '#c35359'
+      highlightcolor: '#75a738'
+      killColor: '#c35359'
+      completedColor: '#18974e'
+
+    # Border title styles.
+    title:
+      fgColor: '#948e48'
+      bgColor: '#201602'
+      highlightColor: '#8868b3'
+      counterColor: '#8868b3'
+      filterColor: '#8868b3'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#477ca1'
+      bgColor: '#201602'
+      cursorColor: '#75a738'
+      # Header row styles.
+      header:
+        fgColor: '#477ca1'
+        bgColor: '#201602'
+        sorterColor: '#8868b3'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#c35359'
+      colonColor: '#75a738'
+      valueColor: '#948e48'
+
+    # Logs styles.
+    logs:
+      fgColor: '#948e48'
+      bgColor: '#201602'

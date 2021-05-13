@@ -1,0 +1,75 @@
+# Base16 Decaf - k9s color config
+# Scheme author: Alex Mirrington (https://github.com/alexmirrington)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#cccccc'
+    bgColor: '#2d2d2d'
+    logoColor: '#bed6ff'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#beda78'
+    sectionColor: '#cccccc'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#90bee1'
+      focusColor: '#bed6ff'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#cccccc'
+      keyColor: '#beda78'
+      # Used for favorite namespaces
+      numKeyColor: '#beda78'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#bed6ff'
+      bgColor: '#2d2d2d'
+      activeColor: '#2d2d2d'
+
+    # Resource status and update styles
+    status:
+      newColor: '#cccccc'
+      modifyColor: '#ffd67c'
+      addColor: '#beda78'
+      errorColor: '#ff7f7b'
+      highlightcolor: '#bed6ff'
+      killColor: '#ff7f7b'
+      completedColor: '#beda78'
+
+    # Border title styles.
+    title:
+      fgColor: '#cccccc'
+      bgColor: '#2d2d2d'
+      highlightColor: '#efb3f7'
+      counterColor: '#efb3f7'
+      filterColor: '#efb3f7'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#90bee1'
+      bgColor: '#2d2d2d'
+      cursorColor: '#bed6ff'
+      # Header row styles.
+      header:
+        fgColor: '#90bee1'
+        bgColor: '#2d2d2d'
+        sorterColor: '#efb3f7'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ff7f7b'
+      colonColor: '#bed6ff'
+      valueColor: '#cccccc'
+
+    # Logs styles.
+    logs:
+      fgColor: '#cccccc'
+      bgColor: '#2d2d2d'

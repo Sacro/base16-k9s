@@ -1,0 +1,75 @@
+# Base16 Solar Flare Light - k9s color config
+# Scheme author: Chuck Harmston (https://chuck.harmston.ch)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#586875'
+    bgColor: '#f5f7fa'
+    logoColor: '#52cbb0'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#7cc844'
+    sectionColor: '#586875'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#33b5e1'
+      focusColor: '#52cbb0'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#586875'
+      keyColor: '#7cc844'
+      # Used for favorite namespaces
+      numKeyColor: '#7cc844'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#52cbb0'
+      bgColor: '#f5f7fa'
+      activeColor: '#f5f7fa'
+
+    # Resource status and update styles
+    status:
+      newColor: '#586875'
+      modifyColor: '#e4b51c'
+      addColor: '#7cc844'
+      errorColor: '#ef5253'
+      highlightcolor: '#52cbb0'
+      killColor: '#ef5253'
+      completedColor: '#7cc844'
+
+    # Border title styles.
+    title:
+      fgColor: '#586875'
+      bgColor: '#f5f7fa'
+      highlightColor: '#a363d5'
+      counterColor: '#a363d5'
+      filterColor: '#a363d5'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#33b5e1'
+      bgColor: '#f5f7fa'
+      cursorColor: '#52cbb0'
+      # Header row styles.
+      header:
+        fgColor: '#33b5e1'
+        bgColor: '#f5f7fa'
+        sorterColor: '#a363d5'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ef5253'
+      colonColor: '#52cbb0'
+      valueColor: '#586875'
+
+    # Logs styles.
+    logs:
+      fgColor: '#586875'
+      bgColor: '#f5f7fa'

@@ -1,0 +1,75 @@
+# Base16 Brush Trees - k9s color config
+# Scheme author: Abraham White &lt;abelincoln.white@gmail.com&gt;
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#6d828e'
+    bgColor: '#e3efef'
+    logoColor: '#86b3b3'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#87b386'
+    sectionColor: '#6d828e'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#868cb3'
+      focusColor: '#86b3b3'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#6d828e'
+      keyColor: '#87b386'
+      # Used for favorite namespaces
+      numKeyColor: '#87b386'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#86b3b3'
+      bgColor: '#e3efef'
+      activeColor: '#e3efef'
+
+    # Resource status and update styles
+    status:
+      newColor: '#6d828e'
+      modifyColor: '#aab386'
+      addColor: '#87b386'
+      errorColor: '#b38686'
+      highlightcolor: '#86b3b3'
+      killColor: '#b38686'
+      completedColor: '#87b386'
+
+    # Border title styles.
+    title:
+      fgColor: '#6d828e'
+      bgColor: '#e3efef'
+      highlightColor: '#b386b2'
+      counterColor: '#b386b2'
+      filterColor: '#b386b2'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#868cb3'
+      bgColor: '#e3efef'
+      cursorColor: '#86b3b3'
+      # Header row styles.
+      header:
+        fgColor: '#868cb3'
+        bgColor: '#e3efef'
+        sorterColor: '#b386b2'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#b38686'
+      colonColor: '#86b3b3'
+      valueColor: '#6d828e'
+
+    # Logs styles.
+    logs:
+      fgColor: '#6d828e'
+      bgColor: '#e3efef'

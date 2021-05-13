@@ -1,0 +1,75 @@
+# Base16 Seti UI - k9s color config
+# Scheme author: 
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#d6d6d6'
+    bgColor: '#151718'
+    logoColor: '#55dbbe'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#9fca56'
+    sectionColor: '#d6d6d6'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#55b5db'
+      focusColor: '#55dbbe'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#d6d6d6'
+      keyColor: '#9fca56'
+      # Used for favorite namespaces
+      numKeyColor: '#9fca56'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#55dbbe'
+      bgColor: '#151718'
+      activeColor: '#151718'
+
+    # Resource status and update styles
+    status:
+      newColor: '#d6d6d6'
+      modifyColor: '#e6cd69'
+      addColor: '#9fca56'
+      errorColor: '#cd3f45'
+      highlightcolor: '#55dbbe'
+      killColor: '#cd3f45'
+      completedColor: '#9fca56'
+
+    # Border title styles.
+    title:
+      fgColor: '#d6d6d6'
+      bgColor: '#151718'
+      highlightColor: '#a074c4'
+      counterColor: '#a074c4'
+      filterColor: '#a074c4'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#55b5db'
+      bgColor: '#151718'
+      cursorColor: '#55dbbe'
+      # Header row styles.
+      header:
+        fgColor: '#55b5db'
+        bgColor: '#151718'
+        sorterColor: '#a074c4'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#cd3f45'
+      colonColor: '#55dbbe'
+      valueColor: '#d6d6d6'
+
+    # Logs styles.
+    logs:
+      fgColor: '#d6d6d6'
+      bgColor: '#151718'

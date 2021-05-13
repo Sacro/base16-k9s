@@ -1,0 +1,75 @@
+# Base16 Material Vivid - k9s color config
+# Scheme author: joshyrobot
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#80868b'
+    bgColor: '#202124'
+    logoColor: '#00bcd4'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#00e676'
+    sectionColor: '#80868b'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#2196f3'
+      focusColor: '#00bcd4'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#80868b'
+      keyColor: '#00e676'
+      # Used for favorite namespaces
+      numKeyColor: '#00e676'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#00bcd4'
+      bgColor: '#202124'
+      activeColor: '#202124'
+
+    # Resource status and update styles
+    status:
+      newColor: '#80868b'
+      modifyColor: '#ffeb3b'
+      addColor: '#00e676'
+      errorColor: '#f44336'
+      highlightcolor: '#00bcd4'
+      killColor: '#f44336'
+      completedColor: '#00e676'
+
+    # Border title styles.
+    title:
+      fgColor: '#80868b'
+      bgColor: '#202124'
+      highlightColor: '#673ab7'
+      counterColor: '#673ab7'
+      filterColor: '#673ab7'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#2196f3'
+      bgColor: '#202124'
+      cursorColor: '#00bcd4'
+      # Header row styles.
+      header:
+        fgColor: '#2196f3'
+        bgColor: '#202124'
+        sorterColor: '#673ab7'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#f44336'
+      colonColor: '#00bcd4'
+      valueColor: '#80868b'
+
+    # Logs styles.
+    logs:
+      fgColor: '#80868b'
+      bgColor: '#202124'

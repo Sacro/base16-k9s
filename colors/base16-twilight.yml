@@ -1,0 +1,75 @@
+# Base16 Twilight - k9s color config
+# Scheme author: David Hart (https://github.com/hartbit)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a7a7a7'
+    bgColor: '#1e1e1e'
+    logoColor: '#afc4db'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#8f9d6a'
+    sectionColor: '#a7a7a7'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#7587a6'
+      focusColor: '#afc4db'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a7a7a7'
+      keyColor: '#8f9d6a'
+      # Used for favorite namespaces
+      numKeyColor: '#8f9d6a'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#afc4db'
+      bgColor: '#1e1e1e'
+      activeColor: '#1e1e1e'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a7a7a7'
+      modifyColor: '#f9ee98'
+      addColor: '#8f9d6a'
+      errorColor: '#cf6a4c'
+      highlightcolor: '#afc4db'
+      killColor: '#cf6a4c'
+      completedColor: '#8f9d6a'
+
+    # Border title styles.
+    title:
+      fgColor: '#a7a7a7'
+      bgColor: '#1e1e1e'
+      highlightColor: '#9b859d'
+      counterColor: '#9b859d'
+      filterColor: '#9b859d'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#7587a6'
+      bgColor: '#1e1e1e'
+      cursorColor: '#afc4db'
+      # Header row styles.
+      header:
+        fgColor: '#7587a6'
+        bgColor: '#1e1e1e'
+        sorterColor: '#9b859d'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#cf6a4c'
+      colonColor: '#afc4db'
+      valueColor: '#a7a7a7'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a7a7a7'
+      bgColor: '#1e1e1e'

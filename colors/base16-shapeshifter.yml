@@ -1,0 +1,75 @@
+# Base16 Shapeshifter - k9s color config
+# Scheme author: Tyler Benziger (http://tybenz.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#102015'
+    bgColor: '#f9f9f9'
+    logoColor: '#23edda'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#0ed839'
+    sectionColor: '#102015'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#3b48e3'
+      focusColor: '#23edda'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#102015'
+      keyColor: '#0ed839'
+      # Used for favorite namespaces
+      numKeyColor: '#0ed839'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#23edda'
+      bgColor: '#f9f9f9'
+      activeColor: '#f9f9f9'
+
+    # Resource status and update styles
+    status:
+      newColor: '#102015'
+      modifyColor: '#dddd13'
+      addColor: '#0ed839'
+      errorColor: '#e92f2f'
+      highlightcolor: '#23edda'
+      killColor: '#e92f2f'
+      completedColor: '#0ed839'
+
+    # Border title styles.
+    title:
+      fgColor: '#102015'
+      bgColor: '#f9f9f9'
+      highlightColor: '#f996e2'
+      counterColor: '#f996e2'
+      filterColor: '#f996e2'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#3b48e3'
+      bgColor: '#f9f9f9'
+      cursorColor: '#23edda'
+      # Header row styles.
+      header:
+        fgColor: '#3b48e3'
+        bgColor: '#f9f9f9'
+        sorterColor: '#f996e2'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#e92f2f'
+      colonColor: '#23edda'
+      valueColor: '#102015'
+
+    # Logs styles.
+    logs:
+      fgColor: '#102015'
+      bgColor: '#f9f9f9'

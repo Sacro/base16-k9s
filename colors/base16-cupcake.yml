@@ -1,0 +1,75 @@
+# Base16 Cupcake - k9s color config
+# Scheme author: Chris Kempson (http://chriskempson.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#8b8198'
+    bgColor: '#fbf1f2'
+    logoColor: '#69a9a7'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#a3b367'
+    sectionColor: '#8b8198'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#7297b9'
+      focusColor: '#69a9a7'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#8b8198'
+      keyColor: '#a3b367'
+      # Used for favorite namespaces
+      numKeyColor: '#a3b367'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#69a9a7'
+      bgColor: '#fbf1f2'
+      activeColor: '#fbf1f2'
+
+    # Resource status and update styles
+    status:
+      newColor: '#8b8198'
+      modifyColor: '#dcb16c'
+      addColor: '#a3b367'
+      errorColor: '#d57e85'
+      highlightcolor: '#69a9a7'
+      killColor: '#d57e85'
+      completedColor: '#a3b367'
+
+    # Border title styles.
+    title:
+      fgColor: '#8b8198'
+      bgColor: '#fbf1f2'
+      highlightColor: '#bb99b4'
+      counterColor: '#bb99b4'
+      filterColor: '#bb99b4'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#7297b9'
+      bgColor: '#fbf1f2'
+      cursorColor: '#69a9a7'
+      # Header row styles.
+      header:
+        fgColor: '#7297b9'
+        bgColor: '#fbf1f2'
+        sorterColor: '#bb99b4'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d57e85'
+      colonColor: '#69a9a7'
+      valueColor: '#8b8198'
+
+    # Logs styles.
+    logs:
+      fgColor: '#8b8198'
+      bgColor: '#fbf1f2'

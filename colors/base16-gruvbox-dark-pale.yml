@@ -1,0 +1,75 @@
+# Base16 Gruvbox dark, pale - k9s color config
+# Scheme author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#dab997'
+    bgColor: '#262626'
+    logoColor: '#85ad85'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#afaf00'
+    sectionColor: '#dab997'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#83adad'
+      focusColor: '#85ad85'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#dab997'
+      keyColor: '#afaf00'
+      # Used for favorite namespaces
+      numKeyColor: '#afaf00'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#85ad85'
+      bgColor: '#262626'
+      activeColor: '#262626'
+
+    # Resource status and update styles
+    status:
+      newColor: '#dab997'
+      modifyColor: '#ffaf00'
+      addColor: '#afaf00'
+      errorColor: '#d75f5f'
+      highlightcolor: '#85ad85'
+      killColor: '#d75f5f'
+      completedColor: '#afaf00'
+
+    # Border title styles.
+    title:
+      fgColor: '#dab997'
+      bgColor: '#262626'
+      highlightColor: '#d485ad'
+      counterColor: '#d485ad'
+      filterColor: '#d485ad'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#83adad'
+      bgColor: '#262626'
+      cursorColor: '#85ad85'
+      # Header row styles.
+      header:
+        fgColor: '#83adad'
+        bgColor: '#262626'
+        sorterColor: '#d485ad'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d75f5f'
+      colonColor: '#85ad85'
+      valueColor: '#dab997'
+
+    # Logs styles.
+    logs:
+      fgColor: '#dab997'
+      bgColor: '#262626'

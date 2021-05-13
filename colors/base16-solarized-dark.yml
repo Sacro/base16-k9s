@@ -1,0 +1,75 @@
+# Base16 Solarized Dark - k9s color config
+# Scheme author: Ethan Schoonover (modified by aramisgithub)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#93a1a1'
+    bgColor: '#002b36'
+    logoColor: '#2aa198'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#859900'
+    sectionColor: '#93a1a1'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#268bd2'
+      focusColor: '#2aa198'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#93a1a1'
+      keyColor: '#859900'
+      # Used for favorite namespaces
+      numKeyColor: '#859900'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#2aa198'
+      bgColor: '#002b36'
+      activeColor: '#002b36'
+
+    # Resource status and update styles
+    status:
+      newColor: '#93a1a1'
+      modifyColor: '#b58900'
+      addColor: '#859900'
+      errorColor: '#dc322f'
+      highlightcolor: '#2aa198'
+      killColor: '#dc322f'
+      completedColor: '#859900'
+
+    # Border title styles.
+    title:
+      fgColor: '#93a1a1'
+      bgColor: '#002b36'
+      highlightColor: '#6c71c4'
+      counterColor: '#6c71c4'
+      filterColor: '#6c71c4'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#268bd2'
+      bgColor: '#002b36'
+      cursorColor: '#2aa198'
+      # Header row styles.
+      header:
+        fgColor: '#268bd2'
+        bgColor: '#002b36'
+        sorterColor: '#6c71c4'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#dc322f'
+      colonColor: '#2aa198'
+      valueColor: '#93a1a1'
+
+    # Logs styles.
+    logs:
+      fgColor: '#93a1a1'
+      bgColor: '#002b36'

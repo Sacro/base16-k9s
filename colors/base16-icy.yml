@@ -1,0 +1,75 @@
+# Base16 Icy Dark - k9s color config
+# Scheme author: icyphox (https://icyphox.ga)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#095b67'
+    bgColor: '#021012'
+    logoColor: '#26c6da'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#4dd0e1'
+    sectionColor: '#095b67'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#00bcd4'
+      focusColor: '#26c6da'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#095b67'
+      keyColor: '#4dd0e1'
+      # Used for favorite namespaces
+      numKeyColor: '#4dd0e1'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#26c6da'
+      bgColor: '#021012'
+      activeColor: '#021012'
+
+    # Resource status and update styles
+    status:
+      newColor: '#095b67'
+      modifyColor: '#80deea'
+      addColor: '#4dd0e1'
+      errorColor: '#16c1d9'
+      highlightcolor: '#26c6da'
+      killColor: '#16c1d9'
+      completedColor: '#4dd0e1'
+
+    # Border title styles.
+    title:
+      fgColor: '#095b67'
+      bgColor: '#021012'
+      highlightColor: '#00acc1'
+      counterColor: '#00acc1'
+      filterColor: '#00acc1'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#00bcd4'
+      bgColor: '#021012'
+      cursorColor: '#26c6da'
+      # Header row styles.
+      header:
+        fgColor: '#00bcd4'
+        bgColor: '#021012'
+        sorterColor: '#00acc1'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#16c1d9'
+      colonColor: '#26c6da'
+      valueColor: '#095b67'
+
+    # Logs styles.
+    logs:
+      fgColor: '#095b67'
+      bgColor: '#021012'

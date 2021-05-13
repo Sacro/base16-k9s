@@ -1,0 +1,75 @@
+# Base16 Brewer - k9s color config
+# Scheme author: Timothée Poisot (http://github.com/tpoisot)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#b7b8b9'
+    bgColor: '#0c0d0e'
+    logoColor: '#80b1d3'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#31a354'
+    sectionColor: '#b7b8b9'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#3182bd'
+      focusColor: '#80b1d3'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#b7b8b9'
+      keyColor: '#31a354'
+      # Used for favorite namespaces
+      numKeyColor: '#31a354'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#80b1d3'
+      bgColor: '#0c0d0e'
+      activeColor: '#0c0d0e'
+
+    # Resource status and update styles
+    status:
+      newColor: '#b7b8b9'
+      modifyColor: '#dca060'
+      addColor: '#31a354'
+      errorColor: '#e31a1c'
+      highlightcolor: '#80b1d3'
+      killColor: '#e31a1c'
+      completedColor: '#31a354'
+
+    # Border title styles.
+    title:
+      fgColor: '#b7b8b9'
+      bgColor: '#0c0d0e'
+      highlightColor: '#756bb1'
+      counterColor: '#756bb1'
+      filterColor: '#756bb1'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#3182bd'
+      bgColor: '#0c0d0e'
+      cursorColor: '#80b1d3'
+      # Header row styles.
+      header:
+        fgColor: '#3182bd'
+        bgColor: '#0c0d0e'
+        sorterColor: '#756bb1'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#e31a1c'
+      colonColor: '#80b1d3'
+      valueColor: '#b7b8b9'
+
+    # Logs styles.
+    logs:
+      fgColor: '#b7b8b9'
+      bgColor: '#0c0d0e'

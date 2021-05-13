@@ -1,0 +1,75 @@
+# Base16 Atelier Heath - k9s color config
+# Scheme author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#ab9bab'
+    bgColor: '#1b181b'
+    logoColor: '#159393'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#918b3b'
+    sectionColor: '#ab9bab'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#516aec'
+      focusColor: '#159393'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#ab9bab'
+      keyColor: '#918b3b'
+      # Used for favorite namespaces
+      numKeyColor: '#918b3b'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#159393'
+      bgColor: '#1b181b'
+      activeColor: '#1b181b'
+
+    # Resource status and update styles
+    status:
+      newColor: '#ab9bab'
+      modifyColor: '#bb8a35'
+      addColor: '#918b3b'
+      errorColor: '#ca402b'
+      highlightcolor: '#159393'
+      killColor: '#ca402b'
+      completedColor: '#918b3b'
+
+    # Border title styles.
+    title:
+      fgColor: '#ab9bab'
+      bgColor: '#1b181b'
+      highlightColor: '#7b59c0'
+      counterColor: '#7b59c0'
+      filterColor: '#7b59c0'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#516aec'
+      bgColor: '#1b181b'
+      cursorColor: '#159393'
+      # Header row styles.
+      header:
+        fgColor: '#516aec'
+        bgColor: '#1b181b'
+        sorterColor: '#7b59c0'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ca402b'
+      colonColor: '#159393'
+      valueColor: '#ab9bab'
+
+    # Logs styles.
+    logs:
+      fgColor: '#ab9bab'
+      bgColor: '#1b181b'

@@ -1,0 +1,75 @@
+# Base16 Google Dark - k9s color config
+# Scheme author: Seth Wright (http://sethawright.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c5c8c6'
+    bgColor: '#1d1f21'
+    logoColor: '#3971ed'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#198844'
+    sectionColor: '#c5c8c6'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#3971ed'
+      focusColor: '#3971ed'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c5c8c6'
+      keyColor: '#198844'
+      # Used for favorite namespaces
+      numKeyColor: '#198844'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#3971ed'
+      bgColor: '#1d1f21'
+      activeColor: '#1d1f21'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c5c8c6'
+      modifyColor: '#fba922'
+      addColor: '#198844'
+      errorColor: '#cc342b'
+      highlightcolor: '#3971ed'
+      killColor: '#cc342b'
+      completedColor: '#198844'
+
+    # Border title styles.
+    title:
+      fgColor: '#c5c8c6'
+      bgColor: '#1d1f21'
+      highlightColor: '#a36ac7'
+      counterColor: '#a36ac7'
+      filterColor: '#a36ac7'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#3971ed'
+      bgColor: '#1d1f21'
+      cursorColor: '#3971ed'
+      # Header row styles.
+      header:
+        fgColor: '#3971ed'
+        bgColor: '#1d1f21'
+        sorterColor: '#a36ac7'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#cc342b'
+      colonColor: '#3971ed'
+      valueColor: '#c5c8c6'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c5c8c6'
+      bgColor: '#1d1f21'

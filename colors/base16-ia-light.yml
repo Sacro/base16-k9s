@@ -1,0 +1,75 @@
+# Base16 iA Light - k9s color config
+# Scheme author: iA Inc. (modified by aramisgithub)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#181818'
+    bgColor: '#f6f6f6'
+    logoColor: '#2d6bb1'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#38781c'
+    sectionColor: '#181818'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#48bac2'
+      focusColor: '#2d6bb1'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#181818'
+      keyColor: '#38781c'
+      # Used for favorite namespaces
+      numKeyColor: '#38781c'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#2d6bb1'
+      bgColor: '#f6f6f6'
+      activeColor: '#f6f6f6'
+
+    # Resource status and update styles
+    status:
+      newColor: '#181818'
+      modifyColor: '#c48218'
+      addColor: '#38781c'
+      errorColor: '#9c5a02'
+      highlightcolor: '#2d6bb1'
+      killColor: '#9c5a02'
+      completedColor: '#38781c'
+
+    # Border title styles.
+    title:
+      fgColor: '#181818'
+      bgColor: '#f6f6f6'
+      highlightColor: '#a94598'
+      counterColor: '#a94598'
+      filterColor: '#a94598'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#48bac2'
+      bgColor: '#f6f6f6'
+      cursorColor: '#2d6bb1'
+      # Header row styles.
+      header:
+        fgColor: '#48bac2'
+        bgColor: '#f6f6f6'
+        sorterColor: '#a94598'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#9c5a02'
+      colonColor: '#2d6bb1'
+      valueColor: '#181818'
+
+    # Logs styles.
+    logs:
+      fgColor: '#181818'
+      bgColor: '#f6f6f6'

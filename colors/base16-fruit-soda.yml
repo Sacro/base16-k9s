@@ -1,0 +1,75 @@
+# Base16 Fruit Soda - k9s color config
+# Scheme author: jozip
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#515151'
+    bgColor: '#f1ecf1'
+    logoColor: '#0f9cfd'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#47f74c'
+    sectionColor: '#515151'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#2931df'
+      focusColor: '#0f9cfd'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#515151'
+      keyColor: '#47f74c'
+      # Used for favorite namespaces
+      numKeyColor: '#47f74c'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#0f9cfd'
+      bgColor: '#f1ecf1'
+      activeColor: '#f1ecf1'
+
+    # Resource status and update styles
+    status:
+      newColor: '#515151'
+      modifyColor: '#f7e203'
+      addColor: '#47f74c'
+      errorColor: '#fe3e31'
+      highlightcolor: '#0f9cfd'
+      killColor: '#fe3e31'
+      completedColor: '#47f74c'
+
+    # Border title styles.
+    title:
+      fgColor: '#515151'
+      bgColor: '#f1ecf1'
+      highlightColor: '#611fce'
+      counterColor: '#611fce'
+      filterColor: '#611fce'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#2931df'
+      bgColor: '#f1ecf1'
+      cursorColor: '#0f9cfd'
+      # Header row styles.
+      header:
+        fgColor: '#2931df'
+        bgColor: '#f1ecf1'
+        sorterColor: '#611fce'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#fe3e31'
+      colonColor: '#0f9cfd'
+      valueColor: '#515151'
+
+    # Logs styles.
+    logs:
+      fgColor: '#515151'
+      bgColor: '#f1ecf1'

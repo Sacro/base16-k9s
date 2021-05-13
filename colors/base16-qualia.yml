@@ -1,0 +1,75 @@
+# Base16 Qualia - k9s color config
+# Scheme author: isaacwhanson
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c0c0c0'
+    bgColor: '#101010'
+    logoColor: '#c8c874'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#80c990'
+    sectionColor: '#c0c0c0'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#50cacd'
+      focusColor: '#c8c874'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c0c0c0'
+      keyColor: '#80c990'
+      # Used for favorite namespaces
+      numKeyColor: '#80c990'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#c8c874'
+      bgColor: '#101010'
+      activeColor: '#101010'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c0c0c0'
+      modifyColor: '#e6a3dc'
+      addColor: '#80c990'
+      errorColor: '#efa6a2'
+      highlightcolor: '#c8c874'
+      killColor: '#efa6a2'
+      completedColor: '#80c990'
+
+    # Border title styles.
+    title:
+      fgColor: '#c0c0c0'
+      bgColor: '#101010'
+      highlightColor: '#e0af85'
+      counterColor: '#e0af85'
+      filterColor: '#e0af85'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#50cacd'
+      bgColor: '#101010'
+      cursorColor: '#c8c874'
+      # Header row styles.
+      header:
+        fgColor: '#50cacd'
+        bgColor: '#101010'
+        sorterColor: '#e0af85'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#efa6a2'
+      colonColor: '#c8c874'
+      valueColor: '#c0c0c0'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c0c0c0'
+      bgColor: '#101010'

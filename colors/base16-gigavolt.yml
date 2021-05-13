@@ -1,0 +1,75 @@
+# Base16 Gigavolt - k9s color config
+# Scheme author: Aidan Swope (http://github.com/Whillikers)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#e9e7e1'
+    bgColor: '#202126'
+    logoColor: '#fb6acb'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#f2e6a9'
+    sectionColor: '#e9e7e1'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#40bfff'
+      focusColor: '#fb6acb'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#e9e7e1'
+      keyColor: '#f2e6a9'
+      # Used for favorite namespaces
+      numKeyColor: '#f2e6a9'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#fb6acb'
+      bgColor: '#202126'
+      activeColor: '#202126'
+
+    # Resource status and update styles
+    status:
+      newColor: '#e9e7e1'
+      modifyColor: '#ffdc2d'
+      addColor: '#f2e6a9'
+      errorColor: '#ff661a'
+      highlightcolor: '#fb6acb'
+      killColor: '#ff661a'
+      completedColor: '#f2e6a9'
+
+    # Border title styles.
+    title:
+      fgColor: '#e9e7e1'
+      bgColor: '#202126'
+      highlightColor: '#ae94f9'
+      counterColor: '#ae94f9'
+      filterColor: '#ae94f9'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#40bfff'
+      bgColor: '#202126'
+      cursorColor: '#fb6acb'
+      # Header row styles.
+      header:
+        fgColor: '#40bfff'
+        bgColor: '#202126'
+        sorterColor: '#ae94f9'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ff661a'
+      colonColor: '#fb6acb'
+      valueColor: '#e9e7e1'
+
+    # Logs styles.
+    logs:
+      fgColor: '#e9e7e1'
+      bgColor: '#202126'

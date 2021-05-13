@@ -1,0 +1,75 @@
+# Base16 3024 - k9s color config
+# Scheme author: Jan T. Sott (http://github.com/idleberg)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a5a2a2'
+    bgColor: '#090300'
+    logoColor: '#b5e4f4'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#01a252'
+    sectionColor: '#a5a2a2'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#01a0e4'
+      focusColor: '#b5e4f4'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a5a2a2'
+      keyColor: '#01a252'
+      # Used for favorite namespaces
+      numKeyColor: '#01a252'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#b5e4f4'
+      bgColor: '#090300'
+      activeColor: '#090300'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a5a2a2'
+      modifyColor: '#fded02'
+      addColor: '#01a252'
+      errorColor: '#db2d20'
+      highlightcolor: '#b5e4f4'
+      killColor: '#db2d20'
+      completedColor: '#01a252'
+
+    # Border title styles.
+    title:
+      fgColor: '#a5a2a2'
+      bgColor: '#090300'
+      highlightColor: '#a16a94'
+      counterColor: '#a16a94'
+      filterColor: '#a16a94'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#01a0e4'
+      bgColor: '#090300'
+      cursorColor: '#b5e4f4'
+      # Header row styles.
+      header:
+        fgColor: '#01a0e4'
+        bgColor: '#090300'
+        sorterColor: '#a16a94'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#db2d20'
+      colonColor: '#b5e4f4'
+      valueColor: '#a5a2a2'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a5a2a2'
+      bgColor: '#090300'

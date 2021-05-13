@@ -1,0 +1,75 @@
+# Base16 tender - k9s color config
+# Scheme author: Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#eeeeee'
+    bgColor: '#282828'
+    logoColor: '#73cef4'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#c9d05c'
+    sectionColor: '#eeeeee'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#b3deef'
+      focusColor: '#73cef4'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#eeeeee'
+      keyColor: '#c9d05c'
+      # Used for favorite namespaces
+      numKeyColor: '#c9d05c'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#73cef4'
+      bgColor: '#282828'
+      activeColor: '#282828'
+
+    # Resource status and update styles
+    status:
+      newColor: '#eeeeee'
+      modifyColor: '#ffc24b'
+      addColor: '#c9d05c'
+      errorColor: '#f43753'
+      highlightcolor: '#73cef4'
+      killColor: '#f43753'
+      completedColor: '#c9d05c'
+
+    # Border title styles.
+    title:
+      fgColor: '#eeeeee'
+      bgColor: '#282828'
+      highlightColor: '#d3b987'
+      counterColor: '#d3b987'
+      filterColor: '#d3b987'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#b3deef'
+      bgColor: '#282828'
+      cursorColor: '#73cef4'
+      # Header row styles.
+      header:
+        fgColor: '#b3deef'
+        bgColor: '#282828'
+        sorterColor: '#d3b987'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#f43753'
+      colonColor: '#73cef4'
+      valueColor: '#eeeeee'
+
+    # Logs styles.
+    logs:
+      fgColor: '#eeeeee'
+      bgColor: '#282828'

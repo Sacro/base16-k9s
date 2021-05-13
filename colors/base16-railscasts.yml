@@ -1,0 +1,75 @@
+# Base16 Railscasts - k9s color config
+# Scheme author: Ryan Bates (http://railscasts.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#e6e1dc'
+    bgColor: '#2b2b2b'
+    logoColor: '#519f50'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#a5c261'
+    sectionColor: '#e6e1dc'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#6d9cbe'
+      focusColor: '#519f50'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#e6e1dc'
+      keyColor: '#a5c261'
+      # Used for favorite namespaces
+      numKeyColor: '#a5c261'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#519f50'
+      bgColor: '#2b2b2b'
+      activeColor: '#2b2b2b'
+
+    # Resource status and update styles
+    status:
+      newColor: '#e6e1dc'
+      modifyColor: '#ffc66d'
+      addColor: '#a5c261'
+      errorColor: '#da4939'
+      highlightcolor: '#519f50'
+      killColor: '#da4939'
+      completedColor: '#a5c261'
+
+    # Border title styles.
+    title:
+      fgColor: '#e6e1dc'
+      bgColor: '#2b2b2b'
+      highlightColor: '#b6b3eb'
+      counterColor: '#b6b3eb'
+      filterColor: '#b6b3eb'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#6d9cbe'
+      bgColor: '#2b2b2b'
+      cursorColor: '#519f50'
+      # Header row styles.
+      header:
+        fgColor: '#6d9cbe'
+        bgColor: '#2b2b2b'
+        sorterColor: '#b6b3eb'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#da4939'
+      colonColor: '#519f50'
+      valueColor: '#e6e1dc'
+
+    # Logs styles.
+    logs:
+      fgColor: '#e6e1dc'
+      bgColor: '#2b2b2b'

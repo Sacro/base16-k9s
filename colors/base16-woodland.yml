@@ -1,0 +1,75 @@
+# Base16 Woodland - k9s color config
+# Scheme author: Jay Cornwall (https://jcornwall.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#cabcb1'
+    bgColor: '#231e18'
+    logoColor: '#6eb958'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#b7ba53'
+    sectionColor: '#cabcb1'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#88a4d3'
+      focusColor: '#6eb958'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#cabcb1'
+      keyColor: '#b7ba53'
+      # Used for favorite namespaces
+      numKeyColor: '#b7ba53'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#6eb958'
+      bgColor: '#231e18'
+      activeColor: '#231e18'
+
+    # Resource status and update styles
+    status:
+      newColor: '#cabcb1'
+      modifyColor: '#e0ac16'
+      addColor: '#b7ba53'
+      errorColor: '#d35c5c'
+      highlightcolor: '#6eb958'
+      killColor: '#d35c5c'
+      completedColor: '#b7ba53'
+
+    # Border title styles.
+    title:
+      fgColor: '#cabcb1'
+      bgColor: '#231e18'
+      highlightColor: '#bb90e2'
+      counterColor: '#bb90e2'
+      filterColor: '#bb90e2'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#88a4d3'
+      bgColor: '#231e18'
+      cursorColor: '#6eb958'
+      # Header row styles.
+      header:
+        fgColor: '#88a4d3'
+        bgColor: '#231e18'
+        sorterColor: '#bb90e2'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d35c5c'
+      colonColor: '#6eb958'
+      valueColor: '#cabcb1'
+
+    # Logs styles.
+    logs:
+      fgColor: '#cabcb1'
+      bgColor: '#231e18'

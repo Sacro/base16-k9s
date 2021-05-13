@@ -1,0 +1,75 @@
+# Base16 Codeschool - k9s color config
+# Scheme author: blockloop
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#9ea7a6'
+    bgColor: '#232c31'
+    logoColor: '#b02f30'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#237986'
+    sectionColor: '#9ea7a6'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#484d79'
+      focusColor: '#b02f30'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#9ea7a6'
+      keyColor: '#237986'
+      # Used for favorite namespaces
+      numKeyColor: '#237986'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#b02f30'
+      bgColor: '#232c31'
+      activeColor: '#232c31'
+
+    # Resource status and update styles
+    status:
+      newColor: '#9ea7a6'
+      modifyColor: '#a03b1e'
+      addColor: '#237986'
+      errorColor: '#2a5491'
+      highlightcolor: '#b02f30'
+      killColor: '#2a5491'
+      completedColor: '#237986'
+
+    # Border title styles.
+    title:
+      fgColor: '#9ea7a6'
+      bgColor: '#232c31'
+      highlightColor: '#c59820'
+      counterColor: '#c59820'
+      filterColor: '#c59820'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#484d79'
+      bgColor: '#232c31'
+      cursorColor: '#b02f30'
+      # Header row styles.
+      header:
+        fgColor: '#484d79'
+        bgColor: '#232c31'
+        sorterColor: '#c59820'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#2a5491'
+      colonColor: '#b02f30'
+      valueColor: '#9ea7a6'
+
+    # Logs styles.
+    logs:
+      fgColor: '#9ea7a6'
+      bgColor: '#232c31'

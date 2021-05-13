@@ -1,0 +1,75 @@
+# Base16 Spacemacs - k9s color config
+# Scheme author: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a3a3a3'
+    bgColor: '#1f2022'
+    logoColor: '#2d9574'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#67b11d'
+    sectionColor: '#a3a3a3'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#4f97d7'
+      focusColor: '#2d9574'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a3a3a3'
+      keyColor: '#67b11d'
+      # Used for favorite namespaces
+      numKeyColor: '#67b11d'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#2d9574'
+      bgColor: '#1f2022'
+      activeColor: '#1f2022'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a3a3a3'
+      modifyColor: '#b1951d'
+      addColor: '#67b11d'
+      errorColor: '#f2241f'
+      highlightcolor: '#2d9574'
+      killColor: '#f2241f'
+      completedColor: '#67b11d'
+
+    # Border title styles.
+    title:
+      fgColor: '#a3a3a3'
+      bgColor: '#1f2022'
+      highlightColor: '#a31db1'
+      counterColor: '#a31db1'
+      filterColor: '#a31db1'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#4f97d7'
+      bgColor: '#1f2022'
+      cursorColor: '#2d9574'
+      # Header row styles.
+      header:
+        fgColor: '#4f97d7'
+        bgColor: '#1f2022'
+        sorterColor: '#a31db1'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#f2241f'
+      colonColor: '#2d9574'
+      valueColor: '#a3a3a3'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a3a3a3'
+      bgColor: '#1f2022'

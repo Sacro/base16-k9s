@@ -1,0 +1,75 @@
+# Base16 Darcula - k9s color config
+# Scheme author: jetbrains
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a9b7c6'
+    bgColor: '#2b2b2b'
+    logoColor: '#629755'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#6a8759'
+    sectionColor: '#a9b7c6'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#9876aa'
+      focusColor: '#629755'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a9b7c6'
+      keyColor: '#6a8759'
+      # Used for favorite namespaces
+      numKeyColor: '#6a8759'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#629755'
+      bgColor: '#2b2b2b'
+      activeColor: '#2b2b2b'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a9b7c6'
+      modifyColor: '#bbb529'
+      addColor: '#6a8759'
+      errorColor: '#4eade5'
+      highlightcolor: '#629755'
+      killColor: '#4eade5'
+      completedColor: '#6a8759'
+
+    # Border title styles.
+    title:
+      fgColor: '#a9b7c6'
+      bgColor: '#2b2b2b'
+      highlightColor: '#cc7832'
+      counterColor: '#cc7832'
+      filterColor: '#cc7832'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#9876aa'
+      bgColor: '#2b2b2b'
+      cursorColor: '#629755'
+      # Header row styles.
+      header:
+        fgColor: '#9876aa'
+        bgColor: '#2b2b2b'
+        sorterColor: '#cc7832'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#4eade5'
+      colonColor: '#629755'
+      valueColor: '#a9b7c6'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a9b7c6'
+      bgColor: '#2b2b2b'

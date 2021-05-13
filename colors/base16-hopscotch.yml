@@ -1,0 +1,75 @@
+# Base16 Hopscotch - k9s color config
+# Scheme author: Jan T. Sott
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#b9b5b8'
+    bgColor: '#322931'
+    logoColor: '#149b93'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#8fc13e'
+    sectionColor: '#b9b5b8'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#1290bf'
+      focusColor: '#149b93'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#b9b5b8'
+      keyColor: '#8fc13e'
+      # Used for favorite namespaces
+      numKeyColor: '#8fc13e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#149b93'
+      bgColor: '#322931'
+      activeColor: '#322931'
+
+    # Resource status and update styles
+    status:
+      newColor: '#b9b5b8'
+      modifyColor: '#fdcc59'
+      addColor: '#8fc13e'
+      errorColor: '#dd464c'
+      highlightcolor: '#149b93'
+      killColor: '#dd464c'
+      completedColor: '#8fc13e'
+
+    # Border title styles.
+    title:
+      fgColor: '#b9b5b8'
+      bgColor: '#322931'
+      highlightColor: '#c85e7c'
+      counterColor: '#c85e7c'
+      filterColor: '#c85e7c'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#1290bf'
+      bgColor: '#322931'
+      cursorColor: '#149b93'
+      # Header row styles.
+      header:
+        fgColor: '#1290bf'
+        bgColor: '#322931'
+        sorterColor: '#c85e7c'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#dd464c'
+      colonColor: '#149b93'
+      valueColor: '#b9b5b8'
+
+    # Logs styles.
+    logs:
+      fgColor: '#b9b5b8'
+      bgColor: '#322931'

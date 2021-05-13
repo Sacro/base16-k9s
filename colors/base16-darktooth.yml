@@ -1,0 +1,75 @@
+# Base16 Darktooth - k9s color config
+# Scheme author: Jason Milkins (https://github.com/jasonm23)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a89984'
+    bgColor: '#1d2021'
+    logoColor: '#8ba59b'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#95c085'
+    sectionColor: '#a89984'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#0d6678'
+      focusColor: '#8ba59b'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a89984'
+      keyColor: '#95c085'
+      # Used for favorite namespaces
+      numKeyColor: '#95c085'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#8ba59b'
+      bgColor: '#1d2021'
+      activeColor: '#1d2021'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a89984'
+      modifyColor: '#fac03b'
+      addColor: '#95c085'
+      errorColor: '#fb543f'
+      highlightcolor: '#8ba59b'
+      killColor: '#fb543f'
+      completedColor: '#95c085'
+
+    # Border title styles.
+    title:
+      fgColor: '#a89984'
+      bgColor: '#1d2021'
+      highlightColor: '#8f4673'
+      counterColor: '#8f4673'
+      filterColor: '#8f4673'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#0d6678'
+      bgColor: '#1d2021'
+      cursorColor: '#8ba59b'
+      # Header row styles.
+      header:
+        fgColor: '#0d6678'
+        bgColor: '#1d2021'
+        sorterColor: '#8f4673'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#fb543f'
+      colonColor: '#8ba59b'
+      valueColor: '#a89984'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a89984'
+      bgColor: '#1d2021'

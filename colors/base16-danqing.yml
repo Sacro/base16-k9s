@@ -1,0 +1,75 @@
+# Base16 DanQing - k9s color config
+# Scheme author: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#e0f0ef'
+    bgColor: '#2d302f'
+    logoColor: '#30dff3'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#8ab361'
+    sectionColor: '#e0f0ef'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#b0a4e3'
+      focusColor: '#30dff3'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#e0f0ef'
+      keyColor: '#8ab361'
+      # Used for favorite namespaces
+      numKeyColor: '#8ab361'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#30dff3'
+      bgColor: '#2d302f'
+      activeColor: '#2d302f'
+
+    # Resource status and update styles
+    status:
+      newColor: '#e0f0ef'
+      modifyColor: '#f0c239'
+      addColor: '#8ab361'
+      errorColor: '#f9906f'
+      highlightcolor: '#30dff3'
+      killColor: '#f9906f'
+      completedColor: '#8ab361'
+
+    # Border title styles.
+    title:
+      fgColor: '#e0f0ef'
+      bgColor: '#2d302f'
+      highlightColor: '#cca4e3'
+      counterColor: '#cca4e3'
+      filterColor: '#cca4e3'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#b0a4e3'
+      bgColor: '#2d302f'
+      cursorColor: '#30dff3'
+      # Header row styles.
+      header:
+        fgColor: '#b0a4e3'
+        bgColor: '#2d302f'
+        sorterColor: '#cca4e3'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#f9906f'
+      colonColor: '#30dff3'
+      valueColor: '#e0f0ef'
+
+    # Logs styles.
+    logs:
+      fgColor: '#e0f0ef'
+      bgColor: '#2d302f'

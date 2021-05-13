@@ -1,0 +1,75 @@
+# Base16 Atlas - k9s color config
+# Scheme author: Alex Lende (https://ajlende.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a1a19a'
+    bgColor: '#002635'
+    logoColor: '#14747e'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#7fc06e'
+    sectionColor: '#a1a19a'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#5dd7b9'
+      focusColor: '#14747e'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a1a19a'
+      keyColor: '#7fc06e'
+      # Used for favorite namespaces
+      numKeyColor: '#7fc06e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#14747e'
+      bgColor: '#002635'
+      activeColor: '#002635'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a1a19a'
+      modifyColor: '#ffcc1b'
+      addColor: '#7fc06e'
+      errorColor: '#ff5a67'
+      highlightcolor: '#14747e'
+      killColor: '#ff5a67'
+      completedColor: '#7fc06e'
+
+    # Border title styles.
+    title:
+      fgColor: '#a1a19a'
+      bgColor: '#002635'
+      highlightColor: '#9a70a4'
+      counterColor: '#9a70a4'
+      filterColor: '#9a70a4'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#5dd7b9'
+      bgColor: '#002635'
+      cursorColor: '#14747e'
+      # Header row styles.
+      header:
+        fgColor: '#5dd7b9'
+        bgColor: '#002635'
+        sorterColor: '#9a70a4'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ff5a67'
+      colonColor: '#14747e'
+      valueColor: '#a1a19a'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a1a19a'
+      bgColor: '#002635'

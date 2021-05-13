@@ -1,0 +1,75 @@
+# Base16 Monokai - k9s color config
+# Scheme author: Wimer Hazenberg (http://www.monokai.nl)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#f8f8f2'
+    bgColor: '#272822'
+    logoColor: '#a1efe4'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#a6e22e'
+    sectionColor: '#f8f8f2'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#66d9ef'
+      focusColor: '#a1efe4'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#f8f8f2'
+      keyColor: '#a6e22e'
+      # Used for favorite namespaces
+      numKeyColor: '#a6e22e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#a1efe4'
+      bgColor: '#272822'
+      activeColor: '#272822'
+
+    # Resource status and update styles
+    status:
+      newColor: '#f8f8f2'
+      modifyColor: '#f4bf75'
+      addColor: '#a6e22e'
+      errorColor: '#f92672'
+      highlightcolor: '#a1efe4'
+      killColor: '#f92672'
+      completedColor: '#a6e22e'
+
+    # Border title styles.
+    title:
+      fgColor: '#f8f8f2'
+      bgColor: '#272822'
+      highlightColor: '#ae81ff'
+      counterColor: '#ae81ff'
+      filterColor: '#ae81ff'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#66d9ef'
+      bgColor: '#272822'
+      cursorColor: '#a1efe4'
+      # Header row styles.
+      header:
+        fgColor: '#66d9ef'
+        bgColor: '#272822'
+        sorterColor: '#ae81ff'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#f92672'
+      colonColor: '#a1efe4'
+      valueColor: '#f8f8f2'
+
+    # Logs styles.
+    logs:
+      fgColor: '#f8f8f2'
+      bgColor: '#272822'

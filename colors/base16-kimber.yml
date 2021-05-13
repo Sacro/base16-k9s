@@ -1,0 +1,75 @@
+# Base16 Kimber - k9s color config
+# Scheme author: Mishka Nguyen (https://github.com/akhsiM)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#dedee7'
+    bgColor: '#222222'
+    logoColor: '#78b4b4'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#99c899'
+    sectionColor: '#dedee7'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#537c9c'
+      focusColor: '#78b4b4'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#dedee7'
+      keyColor: '#99c899'
+      # Used for favorite namespaces
+      numKeyColor: '#99c899'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#78b4b4'
+      bgColor: '#222222'
+      activeColor: '#222222'
+
+    # Resource status and update styles
+    status:
+      newColor: '#dedee7'
+      modifyColor: '#d8b56d'
+      addColor: '#99c899'
+      errorColor: '#c88c8c'
+      highlightcolor: '#78b4b4'
+      killColor: '#c88c8c'
+      completedColor: '#99c899'
+
+    # Border title styles.
+    title:
+      fgColor: '#dedee7'
+      bgColor: '#222222'
+      highlightColor: '#86cacd'
+      counterColor: '#86cacd'
+      filterColor: '#86cacd'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#537c9c'
+      bgColor: '#222222'
+      cursorColor: '#78b4b4'
+      # Header row styles.
+      header:
+        fgColor: '#537c9c'
+        bgColor: '#222222'
+        sorterColor: '#86cacd'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#c88c8c'
+      colonColor: '#78b4b4'
+      valueColor: '#dedee7'
+
+    # Logs styles.
+    logs:
+      fgColor: '#dedee7'
+      bgColor: '#222222'

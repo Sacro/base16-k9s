@@ -1,0 +1,75 @@
+# Base16 Embers - k9s color config
+# Scheme author: Jannik Siebert (https://github.com/janniks)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a39a90'
+    bgColor: '#16130f'
+    logoColor: '#576d82'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#57826d'
+    sectionColor: '#a39a90'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#6d5782'
+      focusColor: '#576d82'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a39a90'
+      keyColor: '#57826d'
+      # Used for favorite namespaces
+      numKeyColor: '#57826d'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#576d82'
+      bgColor: '#16130f'
+      activeColor: '#16130f'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a39a90'
+      modifyColor: '#6d8257'
+      addColor: '#57826d'
+      errorColor: '#826d57'
+      highlightcolor: '#576d82'
+      killColor: '#826d57'
+      completedColor: '#57826d'
+
+    # Border title styles.
+    title:
+      fgColor: '#a39a90'
+      bgColor: '#16130f'
+      highlightColor: '#82576d'
+      counterColor: '#82576d'
+      filterColor: '#82576d'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#6d5782'
+      bgColor: '#16130f'
+      cursorColor: '#576d82'
+      # Header row styles.
+      header:
+        fgColor: '#6d5782'
+        bgColor: '#16130f'
+        sorterColor: '#82576d'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#826d57'
+      colonColor: '#576d82'
+      valueColor: '#a39a90'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a39a90'
+      bgColor: '#16130f'

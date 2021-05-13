@@ -1,0 +1,75 @@
+# Base16 Sagelight - k9s color config
+# Scheme author: Carter Veldhuizen
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#383838'
+    bgColor: '#f8f8f8'
+    logoColor: '#a2d6f5'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#a0d2c8'
+    sectionColor: '#383838'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#a0a7d2'
+      focusColor: '#a2d6f5'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#383838'
+      keyColor: '#a0d2c8'
+      # Used for favorite namespaces
+      numKeyColor: '#a0d2c8'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#a2d6f5'
+      bgColor: '#f8f8f8'
+      activeColor: '#f8f8f8'
+
+    # Resource status and update styles
+    status:
+      newColor: '#383838'
+      modifyColor: '#ffdc61'
+      addColor: '#a0d2c8'
+      errorColor: '#fa8480'
+      highlightcolor: '#a2d6f5'
+      killColor: '#fa8480'
+      completedColor: '#a0d2c8'
+
+    # Border title styles.
+    title:
+      fgColor: '#383838'
+      bgColor: '#f8f8f8'
+      highlightColor: '#c8a0d2'
+      counterColor: '#c8a0d2'
+      filterColor: '#c8a0d2'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#a0a7d2'
+      bgColor: '#f8f8f8'
+      cursorColor: '#a2d6f5'
+      # Header row styles.
+      header:
+        fgColor: '#a0a7d2'
+        bgColor: '#f8f8f8'
+        sorterColor: '#c8a0d2'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#fa8480'
+      colonColor: '#a2d6f5'
+      valueColor: '#383838'
+
+    # Logs styles.
+    logs:
+      fgColor: '#383838'
+      bgColor: '#f8f8f8'

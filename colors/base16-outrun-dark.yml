@@ -1,0 +1,75 @@
+# Base16 Outrun Dark - k9s color config
+# Scheme author: Hugo Delahousse (http://github.com/hugodelahousse/)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#d0d0fa'
+    bgColor: '#00002a'
+    logoColor: '#0ef0f0'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#59f176'
+    sectionColor: '#d0d0fa'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#66b0ff'
+      focusColor: '#0ef0f0'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#d0d0fa'
+      keyColor: '#59f176'
+      # Used for favorite namespaces
+      numKeyColor: '#59f176'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#0ef0f0'
+      bgColor: '#00002a'
+      activeColor: '#00002a'
+
+    # Resource status and update styles
+    status:
+      newColor: '#d0d0fa'
+      modifyColor: '#f3e877'
+      addColor: '#59f176'
+      errorColor: '#ff4242'
+      highlightcolor: '#0ef0f0'
+      killColor: '#ff4242'
+      completedColor: '#59f176'
+
+    # Border title styles.
+    title:
+      fgColor: '#d0d0fa'
+      bgColor: '#00002a'
+      highlightColor: '#f10596'
+      counterColor: '#f10596'
+      filterColor: '#f10596'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#66b0ff'
+      bgColor: '#00002a'
+      cursorColor: '#0ef0f0'
+      # Header row styles.
+      header:
+        fgColor: '#66b0ff'
+        bgColor: '#00002a'
+        sorterColor: '#f10596'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ff4242'
+      colonColor: '#0ef0f0'
+      valueColor: '#d0d0fa'
+
+    # Logs styles.
+    logs:
+      fgColor: '#d0d0fa'
+      bgColor: '#00002a'

@@ -1,0 +1,75 @@
+# Base16 Zenburn - k9s color config
+# Scheme author: elnawe
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#dcdccc'
+    bgColor: '#383838'
+    logoColor: '#93e0e3'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#5f7f5f'
+    sectionColor: '#dcdccc'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#7cb8bb'
+      focusColor: '#93e0e3'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#dcdccc'
+      keyColor: '#5f7f5f'
+      # Used for favorite namespaces
+      numKeyColor: '#5f7f5f'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#93e0e3'
+      bgColor: '#383838'
+      activeColor: '#383838'
+
+    # Resource status and update styles
+    status:
+      newColor: '#dcdccc'
+      modifyColor: '#e0cf9f'
+      addColor: '#5f7f5f'
+      errorColor: '#dca3a3'
+      highlightcolor: '#93e0e3'
+      killColor: '#dca3a3'
+      completedColor: '#5f7f5f'
+
+    # Border title styles.
+    title:
+      fgColor: '#dcdccc'
+      bgColor: '#383838'
+      highlightColor: '#dc8cc3'
+      counterColor: '#dc8cc3'
+      filterColor: '#dc8cc3'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#7cb8bb'
+      bgColor: '#383838'
+      cursorColor: '#93e0e3'
+      # Header row styles.
+      header:
+        fgColor: '#7cb8bb'
+        bgColor: '#383838'
+        sorterColor: '#dc8cc3'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#dca3a3'
+      colonColor: '#93e0e3'
+      valueColor: '#dcdccc'
+
+    # Logs styles.
+    logs:
+      fgColor: '#dcdccc'
+      bgColor: '#383838'

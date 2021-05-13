@@ -1,0 +1,75 @@
+# Base16 Heetch Dark - k9s color config
+# Scheme author: Geoffrey Teale (tealeg@gmail.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#bdb6c5'
+    bgColor: '#190134'
+    logoColor: '#f80059'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#c33678'
+    sectionColor: '#bdb6c5'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#bd0152'
+      focusColor: '#f80059'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#bdb6c5'
+      keyColor: '#c33678'
+      # Used for favorite namespaces
+      numKeyColor: '#c33678'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#f80059'
+      bgColor: '#190134'
+      activeColor: '#190134'
+
+    # Resource status and update styles
+    status:
+      newColor: '#bdb6c5'
+      modifyColor: '#8f6c97'
+      addColor: '#c33678'
+      errorColor: '#27d9d5'
+      highlightcolor: '#f80059'
+      killColor: '#27d9d5'
+      completedColor: '#c33678'
+
+    # Border title styles.
+    title:
+      fgColor: '#bdb6c5'
+      bgColor: '#190134'
+      highlightColor: '#82034c'
+      counterColor: '#82034c'
+      filterColor: '#82034c'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#bd0152'
+      bgColor: '#190134'
+      cursorColor: '#f80059'
+      # Header row styles.
+      header:
+        fgColor: '#bd0152'
+        bgColor: '#190134'
+        sorterColor: '#82034c'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#27d9d5'
+      colonColor: '#f80059'
+      valueColor: '#bdb6c5'
+
+    # Logs styles.
+    logs:
+      fgColor: '#bdb6c5'
+      bgColor: '#190134'

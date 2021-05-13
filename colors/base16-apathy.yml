@@ -1,0 +1,75 @@
+# Base16 Apathy - k9s color config
+# Scheme author: Jannik Siebert (https://github.com/janniks)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#81b5ac'
+    bgColor: '#031a16'
+    logoColor: '#963e4c'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#883e96'
+    sectionColor: '#81b5ac'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#96883e'
+      focusColor: '#963e4c'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#81b5ac'
+      keyColor: '#883e96'
+      # Used for favorite namespaces
+      numKeyColor: '#883e96'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#963e4c'
+      bgColor: '#031a16'
+      activeColor: '#031a16'
+
+    # Resource status and update styles
+    status:
+      newColor: '#81b5ac'
+      modifyColor: '#3e4c96'
+      addColor: '#883e96'
+      errorColor: '#3e9688'
+      highlightcolor: '#963e4c'
+      killColor: '#3e9688'
+      completedColor: '#883e96'
+
+    # Border title styles.
+    title:
+      fgColor: '#81b5ac'
+      bgColor: '#031a16'
+      highlightColor: '#4c963e'
+      counterColor: '#4c963e'
+      filterColor: '#4c963e'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#96883e'
+      bgColor: '#031a16'
+      cursorColor: '#963e4c'
+      # Header row styles.
+      header:
+        fgColor: '#96883e'
+        bgColor: '#031a16'
+        sorterColor: '#4c963e'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#3e9688'
+      colonColor: '#963e4c'
+      valueColor: '#81b5ac'
+
+    # Logs styles.
+    logs:
+      fgColor: '#81b5ac'
+      bgColor: '#031a16'

@@ -1,0 +1,75 @@
+# Base16 {{scheme-name}} - k9s color config
+# Scheme author: {{scheme-author}}
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#{{base05-hex}}'
+    bgColor: '#{{base00-hex}}'
+    logoColor: '#{{base0C-hex}}'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#{{base0B-hex}}'
+    sectionColor: '#{{base05-hex}}'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#{{base0D-hex}}'
+      focusColor: '#{{base0C-hex}}'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#{{base05-hex}}'
+      keyColor: '#{{base0B-hex}}'
+      # Used for favorite namespaces
+      numKeyColor: '#{{base0B-hex}}'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#{{base0C-hex}}'
+      bgColor: '#{{base00-hex}}'
+      activeColor: '#{{base00-hex}}'
+
+    # Resource status and update styles
+    status:
+      newColor: '#{{base05-hex}}'
+      modifyColor: '#{{base0A-hex}}'
+      addColor: '#{{base0B-hex}}'
+      errorColor: '#{{base08-hex}}'
+      highlightcolor: '#{{base0C-hex}}'
+      killColor: '#{{base08-hex}}'
+      completedColor: '#{{base0B-hex}}'
+
+    # Border title styles.
+    title:
+      fgColor: '#{{base05-hex}}'
+      bgColor: '#{{base00-hex}}'
+      highlightColor: '#{{base0E-hex}}'
+      counterColor: '#{{base0E-hex}}'
+      filterColor: '#{{base0E-hex}}'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#{{base0D-hex}}'
+      bgColor: '#{{base00-hex}}'
+      cursorColor: '#{{base0C-hex}}'
+      # Header row styles.
+      header:
+        fgColor: '#{{base0D-hex}}'
+        bgColor: '#{{base00-hex}}'
+        sorterColor: '#{{base0E-hex}}'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#{{base08-hex}}'
+      colonColor: '#{{base0C-hex}}'
+      valueColor: '#{{base05-hex}}'
+
+    # Logs styles.
+    logs:
+      fgColor: '#{{base05-hex}}'
+      bgColor: '#{{base00-hex}}'

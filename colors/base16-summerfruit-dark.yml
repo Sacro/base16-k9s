@@ -1,0 +1,75 @@
+# Base16 Summerfruit Dark - k9s color config
+# Scheme author: Christopher Corley (http://christop.club/)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#d0d0d0'
+    bgColor: '#151515'
+    logoColor: '#1faaaa'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#00c918'
+    sectionColor: '#d0d0d0'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#3777e6'
+      focusColor: '#1faaaa'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#d0d0d0'
+      keyColor: '#00c918'
+      # Used for favorite namespaces
+      numKeyColor: '#00c918'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#1faaaa'
+      bgColor: '#151515'
+      activeColor: '#151515'
+
+    # Resource status and update styles
+    status:
+      newColor: '#d0d0d0'
+      modifyColor: '#aba800'
+      addColor: '#00c918'
+      errorColor: '#ff0086'
+      highlightcolor: '#1faaaa'
+      killColor: '#ff0086'
+      completedColor: '#00c918'
+
+    # Border title styles.
+    title:
+      fgColor: '#d0d0d0'
+      bgColor: '#151515'
+      highlightColor: '#ad00a1'
+      counterColor: '#ad00a1'
+      filterColor: '#ad00a1'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#3777e6'
+      bgColor: '#151515'
+      cursorColor: '#1faaaa'
+      # Header row styles.
+      header:
+        fgColor: '#3777e6'
+        bgColor: '#151515'
+        sorterColor: '#ad00a1'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ff0086'
+      colonColor: '#1faaaa'
+      valueColor: '#d0d0d0'
+
+    # Logs styles.
+    logs:
+      fgColor: '#d0d0d0'
+      bgColor: '#151515'

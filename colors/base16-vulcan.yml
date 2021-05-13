@@ -1,0 +1,75 @@
+# Base16 vulcan - k9s color config
+# Scheme author: Andrey Varfolomeev
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#5b778c'
+    bgColor: '#041523'
+    logoColor: '#977d7c'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#977d7c'
+    sectionColor: '#5b778c'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#977d7c'
+      focusColor: '#977d7c'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#5b778c'
+      keyColor: '#977d7c'
+      # Used for favorite namespaces
+      numKeyColor: '#977d7c'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#977d7c'
+      bgColor: '#041523'
+      activeColor: '#041523'
+
+    # Resource status and update styles
+    status:
+      newColor: '#5b778c'
+      modifyColor: '#adb4b9'
+      addColor: '#977d7c'
+      errorColor: '#818591'
+      highlightcolor: '#977d7c'
+      killColor: '#818591'
+      completedColor: '#977d7c'
+
+    # Border title styles.
+    title:
+      fgColor: '#5b778c'
+      bgColor: '#041523'
+      highlightColor: '#9198a3'
+      counterColor: '#9198a3'
+      filterColor: '#9198a3'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#977d7c'
+      bgColor: '#041523'
+      cursorColor: '#977d7c'
+      # Header row styles.
+      header:
+        fgColor: '#977d7c'
+        bgColor: '#041523'
+        sorterColor: '#9198a3'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#818591'
+      colonColor: '#977d7c'
+      valueColor: '#5b778c'
+
+    # Logs styles.
+    logs:
+      fgColor: '#5b778c'
+      bgColor: '#041523'

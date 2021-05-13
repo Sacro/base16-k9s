@@ -1,0 +1,75 @@
+# Base16 Mexico Light - k9s color config
+# Scheme author: Sheldon Johnson
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#383838'
+    bgColor: '#f8f8f8'
+    logoColor: '#4b8093'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#538947'
+    sectionColor: '#383838'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#7cafc2'
+      focusColor: '#4b8093'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#383838'
+      keyColor: '#538947'
+      # Used for favorite namespaces
+      numKeyColor: '#538947'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#4b8093'
+      bgColor: '#f8f8f8'
+      activeColor: '#f8f8f8'
+
+    # Resource status and update styles
+    status:
+      newColor: '#383838'
+      modifyColor: '#f79a0e'
+      addColor: '#538947'
+      errorColor: '#ab4642'
+      highlightcolor: '#4b8093'
+      killColor: '#ab4642'
+      completedColor: '#538947'
+
+    # Border title styles.
+    title:
+      fgColor: '#383838'
+      bgColor: '#f8f8f8'
+      highlightColor: '#96609e'
+      counterColor: '#96609e'
+      filterColor: '#96609e'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#7cafc2'
+      bgColor: '#f8f8f8'
+      cursorColor: '#4b8093'
+      # Header row styles.
+      header:
+        fgColor: '#7cafc2'
+        bgColor: '#f8f8f8'
+        sorterColor: '#96609e'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ab4642'
+      colonColor: '#4b8093'
+      valueColor: '#383838'
+
+    # Logs styles.
+    logs:
+      fgColor: '#383838'
+      bgColor: '#f8f8f8'

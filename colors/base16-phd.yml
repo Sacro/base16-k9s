@@ -1,0 +1,75 @@
+# Base16 PhD - k9s color config
+# Scheme author: Hennig Hasemann (http://leetless.de/vim.html)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#b8bbc2'
+    bgColor: '#061229'
+    logoColor: '#72b9bf'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#99bf52'
+    sectionColor: '#b8bbc2'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#5299bf'
+      focusColor: '#72b9bf'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#b8bbc2'
+      keyColor: '#99bf52'
+      # Used for favorite namespaces
+      numKeyColor: '#99bf52'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#72b9bf'
+      bgColor: '#061229'
+      activeColor: '#061229'
+
+    # Resource status and update styles
+    status:
+      newColor: '#b8bbc2'
+      modifyColor: '#fbd461'
+      addColor: '#99bf52'
+      errorColor: '#d07346'
+      highlightcolor: '#72b9bf'
+      killColor: '#d07346'
+      completedColor: '#99bf52'
+
+    # Border title styles.
+    title:
+      fgColor: '#b8bbc2'
+      bgColor: '#061229'
+      highlightColor: '#9989cc'
+      counterColor: '#9989cc'
+      filterColor: '#9989cc'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#5299bf'
+      bgColor: '#061229'
+      cursorColor: '#72b9bf'
+      # Header row styles.
+      header:
+        fgColor: '#5299bf'
+        bgColor: '#061229'
+        sorterColor: '#9989cc'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d07346'
+      colonColor: '#72b9bf'
+      valueColor: '#b8bbc2'
+
+    # Logs styles.
+    logs:
+      fgColor: '#b8bbc2'
+      bgColor: '#061229'

@@ -1,0 +1,75 @@
+# Base16 Eva Dim - k9s color config
+# Scheme author: kjakapat (https://github.com/kjakapat)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#9fa2a6'
+    bgColor: '#2a3b4d'
+    logoColor: '#4b8f77'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#5de561'
+    sectionColor: '#9fa2a6'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#1ae1dc'
+      focusColor: '#4b8f77'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#9fa2a6'
+      keyColor: '#5de561'
+      # Used for favorite namespaces
+      numKeyColor: '#5de561'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#4b8f77'
+      bgColor: '#2a3b4d'
+      activeColor: '#2a3b4d'
+
+    # Resource status and update styles
+    status:
+      newColor: '#9fa2a6'
+      modifyColor: '#cfd05d'
+      addColor: '#5de561'
+      errorColor: '#c4676c'
+      highlightcolor: '#4b8f77'
+      killColor: '#c4676c'
+      completedColor: '#5de561'
+
+    # Border title styles.
+    title:
+      fgColor: '#9fa2a6'
+      bgColor: '#2a3b4d'
+      highlightColor: '#9c6cd3'
+      counterColor: '#9c6cd3'
+      filterColor: '#9c6cd3'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#1ae1dc'
+      bgColor: '#2a3b4d'
+      cursorColor: '#4b8f77'
+      # Header row styles.
+      header:
+        fgColor: '#1ae1dc'
+        bgColor: '#2a3b4d'
+        sorterColor: '#9c6cd3'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#c4676c'
+      colonColor: '#4b8f77'
+      valueColor: '#9fa2a6'
+
+    # Logs styles.
+    logs:
+      fgColor: '#9fa2a6'
+      bgColor: '#2a3b4d'

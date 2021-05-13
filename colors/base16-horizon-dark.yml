@@ -1,0 +1,75 @@
+# Base16 Horizon Dark - k9s color config
+# Scheme author: Michaël Ball (http://github.com/michael-ball/)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#cbced0'
+    bgColor: '#1c1e26'
+    logoColor: '#24a8b4'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#efaf8e'
+    sectionColor: '#cbced0'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#df5273'
+      focusColor: '#24a8b4'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#cbced0'
+      keyColor: '#efaf8e'
+      # Used for favorite namespaces
+      numKeyColor: '#efaf8e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#24a8b4'
+      bgColor: '#1c1e26'
+      activeColor: '#1c1e26'
+
+    # Resource status and update styles
+    status:
+      newColor: '#cbced0'
+      modifyColor: '#efb993'
+      addColor: '#efaf8e'
+      errorColor: '#e93c58'
+      highlightcolor: '#24a8b4'
+      killColor: '#e93c58'
+      completedColor: '#efaf8e'
+
+    # Border title styles.
+    title:
+      fgColor: '#cbced0'
+      bgColor: '#1c1e26'
+      highlightColor: '#b072d1'
+      counterColor: '#b072d1'
+      filterColor: '#b072d1'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#df5273'
+      bgColor: '#1c1e26'
+      cursorColor: '#24a8b4'
+      # Header row styles.
+      header:
+        fgColor: '#df5273'
+        bgColor: '#1c1e26'
+        sorterColor: '#b072d1'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#e93c58'
+      colonColor: '#24a8b4'
+      valueColor: '#cbced0'
+
+    # Logs styles.
+    logs:
+      fgColor: '#cbced0'
+      bgColor: '#1c1e26'

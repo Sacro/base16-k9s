@@ -1,0 +1,75 @@
+# Base16 Black Metal - k9s color config
+# Scheme author: metalelf0 (https://github.com/metalelf0)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c1c1c1'
+    bgColor: '#000000'
+    logoColor: '#aaaaaa'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#dd9999'
+    sectionColor: '#c1c1c1'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#888888'
+      focusColor: '#aaaaaa'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c1c1c1'
+      keyColor: '#dd9999'
+      # Used for favorite namespaces
+      numKeyColor: '#dd9999'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#aaaaaa'
+      bgColor: '#000000'
+      activeColor: '#000000'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c1c1c1'
+      modifyColor: '#a06666'
+      addColor: '#dd9999'
+      errorColor: '#5f8787'
+      highlightcolor: '#aaaaaa'
+      killColor: '#5f8787'
+      completedColor: '#dd9999'
+
+    # Border title styles.
+    title:
+      fgColor: '#c1c1c1'
+      bgColor: '#000000'
+      highlightColor: '#999999'
+      counterColor: '#999999'
+      filterColor: '#999999'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#888888'
+      bgColor: '#000000'
+      cursorColor: '#aaaaaa'
+      # Header row styles.
+      header:
+        fgColor: '#888888'
+        bgColor: '#000000'
+        sorterColor: '#999999'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#5f8787'
+      colonColor: '#aaaaaa'
+      valueColor: '#c1c1c1'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c1c1c1'
+      bgColor: '#000000'

@@ -1,0 +1,75 @@
+# Base16 Porple - k9s color config
+# Scheme author: Niek den Breeje (https://github.com/AuditeMarlow)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#d8d8d8'
+    bgColor: '#292c36'
+    logoColor: '#64878f'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#95c76f'
+    sectionColor: '#d8d8d8'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#8485ce'
+      focusColor: '#64878f'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#d8d8d8'
+      keyColor: '#95c76f'
+      # Used for favorite namespaces
+      numKeyColor: '#95c76f'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#64878f'
+      bgColor: '#292c36'
+      activeColor: '#292c36'
+
+    # Resource status and update styles
+    status:
+      newColor: '#d8d8d8'
+      modifyColor: '#efa16b'
+      addColor: '#95c76f'
+      errorColor: '#f84547'
+      highlightcolor: '#64878f'
+      killColor: '#f84547'
+      completedColor: '#95c76f'
+
+    # Border title styles.
+    title:
+      fgColor: '#d8d8d8'
+      bgColor: '#292c36'
+      highlightColor: '#b74989'
+      counterColor: '#b74989'
+      filterColor: '#b74989'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#8485ce'
+      bgColor: '#292c36'
+      cursorColor: '#64878f'
+      # Header row styles.
+      header:
+        fgColor: '#8485ce'
+        bgColor: '#292c36'
+        sorterColor: '#b74989'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#f84547'
+      colonColor: '#64878f'
+      valueColor: '#d8d8d8'
+
+    # Logs styles.
+    logs:
+      fgColor: '#d8d8d8'
+      bgColor: '#292c36'

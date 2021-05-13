@@ -1,0 +1,75 @@
+# Base16 One Light - k9s color config
+# Scheme author: Daniel Pfeifer (http://github.com/purpleKarrot)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#383a42'
+    bgColor: '#fafafa'
+    logoColor: '#0184bc'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#50a14f'
+    sectionColor: '#383a42'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#4078f2'
+      focusColor: '#0184bc'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#383a42'
+      keyColor: '#50a14f'
+      # Used for favorite namespaces
+      numKeyColor: '#50a14f'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#0184bc'
+      bgColor: '#fafafa'
+      activeColor: '#fafafa'
+
+    # Resource status and update styles
+    status:
+      newColor: '#383a42'
+      modifyColor: '#c18401'
+      addColor: '#50a14f'
+      errorColor: '#ca1243'
+      highlightcolor: '#0184bc'
+      killColor: '#ca1243'
+      completedColor: '#50a14f'
+
+    # Border title styles.
+    title:
+      fgColor: '#383a42'
+      bgColor: '#fafafa'
+      highlightColor: '#a626a4'
+      counterColor: '#a626a4'
+      filterColor: '#a626a4'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#4078f2'
+      bgColor: '#fafafa'
+      cursorColor: '#0184bc'
+      # Header row styles.
+      header:
+        fgColor: '#4078f2'
+        bgColor: '#fafafa'
+        sorterColor: '#a626a4'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ca1243'
+      colonColor: '#0184bc'
+      valueColor: '#383a42'
+
+    # Logs styles.
+    logs:
+      fgColor: '#383a42'
+      bgColor: '#fafafa'

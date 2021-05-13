@@ -1,0 +1,75 @@
+# Base16 Helios - k9s color config
+# Scheme author: Alex Meyer (https://github.com/reyemxela)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#d5d5d5'
+    bgColor: '#1d2021'
+    logoColor: '#1ba595'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#88b92d'
+    sectionColor: '#d5d5d5'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#1e8bac'
+      focusColor: '#1ba595'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#d5d5d5'
+      keyColor: '#88b92d'
+      # Used for favorite namespaces
+      numKeyColor: '#88b92d'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#1ba595'
+      bgColor: '#1d2021'
+      activeColor: '#1d2021'
+
+    # Resource status and update styles
+    status:
+      newColor: '#d5d5d5'
+      modifyColor: '#f19d1a'
+      addColor: '#88b92d'
+      errorColor: '#d72638'
+      highlightcolor: '#1ba595'
+      killColor: '#d72638'
+      completedColor: '#88b92d'
+
+    # Border title styles.
+    title:
+      fgColor: '#d5d5d5'
+      bgColor: '#1d2021'
+      highlightColor: '#be4264'
+      counterColor: '#be4264'
+      filterColor: '#be4264'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#1e8bac'
+      bgColor: '#1d2021'
+      cursorColor: '#1ba595'
+      # Header row styles.
+      header:
+        fgColor: '#1e8bac'
+        bgColor: '#1d2021'
+        sorterColor: '#be4264'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d72638'
+      colonColor: '#1ba595'
+      valueColor: '#d5d5d5'
+
+    # Logs styles.
+    logs:
+      fgColor: '#d5d5d5'
+      bgColor: '#1d2021'

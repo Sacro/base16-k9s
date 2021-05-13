@@ -1,0 +1,75 @@
+# Base16 Cupertino - k9s color config
+# Scheme author: Defman21
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#404040'
+    bgColor: '#ffffff'
+    logoColor: '#318495'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#007400'
+    sectionColor: '#404040'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#0000ff'
+      focusColor: '#318495'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#404040'
+      keyColor: '#007400'
+      # Used for favorite namespaces
+      numKeyColor: '#007400'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#318495'
+      bgColor: '#ffffff'
+      activeColor: '#ffffff'
+
+    # Resource status and update styles
+    status:
+      newColor: '#404040'
+      modifyColor: '#826b28'
+      addColor: '#007400'
+      errorColor: '#c41a15'
+      highlightcolor: '#318495'
+      killColor: '#c41a15'
+      completedColor: '#007400'
+
+    # Border title styles.
+    title:
+      fgColor: '#404040'
+      bgColor: '#ffffff'
+      highlightColor: '#a90d91'
+      counterColor: '#a90d91'
+      filterColor: '#a90d91'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#0000ff'
+      bgColor: '#ffffff'
+      cursorColor: '#318495'
+      # Header row styles.
+      header:
+        fgColor: '#0000ff'
+        bgColor: '#ffffff'
+        sorterColor: '#a90d91'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#c41a15'
+      colonColor: '#318495'
+      valueColor: '#404040'
+
+    # Logs styles.
+    logs:
+      fgColor: '#404040'
+      bgColor: '#ffffff'

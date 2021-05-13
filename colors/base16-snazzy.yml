@@ -1,0 +1,75 @@
+# Base16 Snazzy - k9s color config
+# Scheme author: Chawye Hsu (https://github.com/chawyehsu) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#e2e4e5'
+    bgColor: '#282a36'
+    logoColor: '#9aedfe'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#5af78e'
+    sectionColor: '#e2e4e5'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#57c7ff'
+      focusColor: '#9aedfe'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#e2e4e5'
+      keyColor: '#5af78e'
+      # Used for favorite namespaces
+      numKeyColor: '#5af78e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#9aedfe'
+      bgColor: '#282a36'
+      activeColor: '#282a36'
+
+    # Resource status and update styles
+    status:
+      newColor: '#e2e4e5'
+      modifyColor: '#f3f99d'
+      addColor: '#5af78e'
+      errorColor: '#ff5c57'
+      highlightcolor: '#9aedfe'
+      killColor: '#ff5c57'
+      completedColor: '#5af78e'
+
+    # Border title styles.
+    title:
+      fgColor: '#e2e4e5'
+      bgColor: '#282a36'
+      highlightColor: '#ff6ac1'
+      counterColor: '#ff6ac1'
+      filterColor: '#ff6ac1'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#57c7ff'
+      bgColor: '#282a36'
+      cursorColor: '#9aedfe'
+      # Header row styles.
+      header:
+        fgColor: '#57c7ff'
+        bgColor: '#282a36'
+        sorterColor: '#ff6ac1'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ff5c57'
+      colonColor: '#9aedfe'
+      valueColor: '#e2e4e5'
+
+    # Logs styles.
+    logs:
+      fgColor: '#e2e4e5'
+      bgColor: '#282a36'

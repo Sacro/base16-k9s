@@ -1,0 +1,75 @@
+# Base16 Paraiso - k9s color config
+# Scheme author: Jan T. Sott
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a39e9b'
+    bgColor: '#2f1e2e'
+    logoColor: '#5bc4bf'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#48b685'
+    sectionColor: '#a39e9b'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#06b6ef'
+      focusColor: '#5bc4bf'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a39e9b'
+      keyColor: '#48b685'
+      # Used for favorite namespaces
+      numKeyColor: '#48b685'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#5bc4bf'
+      bgColor: '#2f1e2e'
+      activeColor: '#2f1e2e'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a39e9b'
+      modifyColor: '#fec418'
+      addColor: '#48b685'
+      errorColor: '#ef6155'
+      highlightcolor: '#5bc4bf'
+      killColor: '#ef6155'
+      completedColor: '#48b685'
+
+    # Border title styles.
+    title:
+      fgColor: '#a39e9b'
+      bgColor: '#2f1e2e'
+      highlightColor: '#815ba4'
+      counterColor: '#815ba4'
+      filterColor: '#815ba4'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#06b6ef'
+      bgColor: '#2f1e2e'
+      cursorColor: '#5bc4bf'
+      # Header row styles.
+      header:
+        fgColor: '#06b6ef'
+        bgColor: '#2f1e2e'
+        sorterColor: '#815ba4'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ef6155'
+      colonColor: '#5bc4bf'
+      valueColor: '#a39e9b'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a39e9b'
+      bgColor: '#2f1e2e'

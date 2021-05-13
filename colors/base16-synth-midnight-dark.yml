@@ -1,0 +1,75 @@
+# Base16 Synth Midnight Terminal Dark - k9s color config
+# Scheme author: Michaël Ball (http://github.com/michael-ball/)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c1c3c4'
+    bgColor: '#050608'
+    logoColor: '#42fff9'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#06ea61'
+    sectionColor: '#c1c3c4'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#03aeff'
+      focusColor: '#42fff9'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c1c3c4'
+      keyColor: '#06ea61'
+      # Used for favorite namespaces
+      numKeyColor: '#06ea61'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#42fff9'
+      bgColor: '#050608'
+      activeColor: '#050608'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c1c3c4'
+      modifyColor: '#c9d364'
+      addColor: '#06ea61'
+      errorColor: '#b53b50'
+      highlightcolor: '#42fff9'
+      killColor: '#b53b50'
+      completedColor: '#06ea61'
+
+    # Border title styles.
+    title:
+      fgColor: '#c1c3c4'
+      bgColor: '#050608'
+      highlightColor: '#ea5ce2'
+      counterColor: '#ea5ce2'
+      filterColor: '#ea5ce2'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#03aeff'
+      bgColor: '#050608'
+      cursorColor: '#42fff9'
+      # Header row styles.
+      header:
+        fgColor: '#03aeff'
+        bgColor: '#050608'
+        sorterColor: '#ea5ce2'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#b53b50'
+      colonColor: '#42fff9'
+      valueColor: '#c1c3c4'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c1c3c4'
+      bgColor: '#050608'

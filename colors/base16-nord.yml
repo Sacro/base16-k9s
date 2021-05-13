@@ -1,0 +1,75 @@
+# Base16 Nord - k9s color config
+# Scheme author: arcticicestudio
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#e5e9f0'
+    bgColor: '#2e3440'
+    logoColor: '#88c0d0'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#a3be8c'
+    sectionColor: '#e5e9f0'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#81a1c1'
+      focusColor: '#88c0d0'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#e5e9f0'
+      keyColor: '#a3be8c'
+      # Used for favorite namespaces
+      numKeyColor: '#a3be8c'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#88c0d0'
+      bgColor: '#2e3440'
+      activeColor: '#2e3440'
+
+    # Resource status and update styles
+    status:
+      newColor: '#e5e9f0'
+      modifyColor: '#ebcb8b'
+      addColor: '#a3be8c'
+      errorColor: '#bf616a'
+      highlightcolor: '#88c0d0'
+      killColor: '#bf616a'
+      completedColor: '#a3be8c'
+
+    # Border title styles.
+    title:
+      fgColor: '#e5e9f0'
+      bgColor: '#2e3440'
+      highlightColor: '#b48ead'
+      counterColor: '#b48ead'
+      filterColor: '#b48ead'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#81a1c1'
+      bgColor: '#2e3440'
+      cursorColor: '#88c0d0'
+      # Header row styles.
+      header:
+        fgColor: '#81a1c1'
+        bgColor: '#2e3440'
+        sorterColor: '#b48ead'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#bf616a'
+      colonColor: '#88c0d0'
+      valueColor: '#e5e9f0'
+
+    # Logs styles.
+    logs:
+      fgColor: '#e5e9f0'
+      bgColor: '#2e3440'

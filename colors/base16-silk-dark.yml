@@ -1,0 +1,75 @@
+# Base16 Silk Dark - k9s color config
+# Scheme author: Gabriel Fontes (https://github.com/Misterio77)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c7dbdd'
+    bgColor: '#0e3c46'
+    logoColor: '#3fb2b9'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#73d8ad'
+    sectionColor: '#c7dbdd'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#46bddd'
+      focusColor: '#3fb2b9'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c7dbdd'
+      keyColor: '#73d8ad'
+      # Used for favorite namespaces
+      numKeyColor: '#73d8ad'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#3fb2b9'
+      bgColor: '#0e3c46'
+      activeColor: '#0e3c46'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c7dbdd'
+      modifyColor: '#fce380'
+      addColor: '#73d8ad'
+      errorColor: '#fb6953'
+      highlightcolor: '#3fb2b9'
+      killColor: '#fb6953'
+      completedColor: '#73d8ad'
+
+    # Border title styles.
+    title:
+      fgColor: '#c7dbdd'
+      bgColor: '#0e3c46'
+      highlightColor: '#756b8a'
+      counterColor: '#756b8a'
+      filterColor: '#756b8a'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#46bddd'
+      bgColor: '#0e3c46'
+      cursorColor: '#3fb2b9'
+      # Header row styles.
+      header:
+        fgColor: '#46bddd'
+        bgColor: '#0e3c46'
+        sorterColor: '#756b8a'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#fb6953'
+      colonColor: '#3fb2b9'
+      valueColor: '#c7dbdd'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c7dbdd'
+      bgColor: '#0e3c46'

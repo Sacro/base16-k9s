@@ -1,0 +1,75 @@
+# Base16 OceanicNext - k9s color config
+# Scheme author: https://github.com/voronianski/oceanic-next-color-scheme
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c0c5ce'
+    bgColor: '#1b2b34'
+    logoColor: '#5fb3b3'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#99c794'
+    sectionColor: '#c0c5ce'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#6699cc'
+      focusColor: '#5fb3b3'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c0c5ce'
+      keyColor: '#99c794'
+      # Used for favorite namespaces
+      numKeyColor: '#99c794'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#5fb3b3'
+      bgColor: '#1b2b34'
+      activeColor: '#1b2b34'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c0c5ce'
+      modifyColor: '#fac863'
+      addColor: '#99c794'
+      errorColor: '#ec5f67'
+      highlightcolor: '#5fb3b3'
+      killColor: '#ec5f67'
+      completedColor: '#99c794'
+
+    # Border title styles.
+    title:
+      fgColor: '#c0c5ce'
+      bgColor: '#1b2b34'
+      highlightColor: '#c594c5'
+      counterColor: '#c594c5'
+      filterColor: '#c594c5'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#6699cc'
+      bgColor: '#1b2b34'
+      cursorColor: '#5fb3b3'
+      # Header row styles.
+      header:
+        fgColor: '#6699cc'
+        bgColor: '#1b2b34'
+        sorterColor: '#c594c5'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ec5f67'
+      colonColor: '#5fb3b3'
+      valueColor: '#c0c5ce'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c0c5ce'
+      bgColor: '#1b2b34'

@@ -1,0 +1,75 @@
+# Base16 Atelier Dune Light - k9s color config
+# Scheme author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#6e6b5e'
+    bgColor: '#fefbec'
+    logoColor: '#1fad83'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#60ac39'
+    sectionColor: '#6e6b5e'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#6684e1'
+      focusColor: '#1fad83'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#6e6b5e'
+      keyColor: '#60ac39'
+      # Used for favorite namespaces
+      numKeyColor: '#60ac39'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#1fad83'
+      bgColor: '#fefbec'
+      activeColor: '#fefbec'
+
+    # Resource status and update styles
+    status:
+      newColor: '#6e6b5e'
+      modifyColor: '#ae9513'
+      addColor: '#60ac39'
+      errorColor: '#d73737'
+      highlightcolor: '#1fad83'
+      killColor: '#d73737'
+      completedColor: '#60ac39'
+
+    # Border title styles.
+    title:
+      fgColor: '#6e6b5e'
+      bgColor: '#fefbec'
+      highlightColor: '#b854d4'
+      counterColor: '#b854d4'
+      filterColor: '#b854d4'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#6684e1'
+      bgColor: '#fefbec'
+      cursorColor: '#1fad83'
+      # Header row styles.
+      header:
+        fgColor: '#6684e1'
+        bgColor: '#fefbec'
+        sorterColor: '#b854d4'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d73737'
+      colonColor: '#1fad83'
+      valueColor: '#6e6b5e'
+
+    # Logs styles.
+    logs:
+      fgColor: '#6e6b5e'
+      bgColor: '#fefbec'

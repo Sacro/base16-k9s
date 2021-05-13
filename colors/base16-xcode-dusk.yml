@@ -1,0 +1,75 @@
+# Base16 XCode Dusk - k9s color config
+# Scheme author: Elsa Gonsiorowski (https://github.com/gonsie)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#939599'
+    bgColor: '#282b35'
+    logoColor: '#00a0be'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#df0002'
+    sectionColor: '#939599'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#790ead'
+      focusColor: '#00a0be'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#939599'
+      keyColor: '#df0002'
+      # Used for favorite namespaces
+      numKeyColor: '#df0002'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#00a0be'
+      bgColor: '#282b35'
+      activeColor: '#282b35'
+
+    # Resource status and update styles
+    status:
+      newColor: '#939599'
+      modifyColor: '#438288'
+      addColor: '#df0002'
+      errorColor: '#b21889'
+      highlightcolor: '#00a0be'
+      killColor: '#b21889'
+      completedColor: '#df0002'
+
+    # Border title styles.
+    title:
+      fgColor: '#939599'
+      bgColor: '#282b35'
+      highlightColor: '#b21889'
+      counterColor: '#b21889'
+      filterColor: '#b21889'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#790ead'
+      bgColor: '#282b35'
+      cursorColor: '#00a0be'
+      # Header row styles.
+      header:
+        fgColor: '#790ead'
+        bgColor: '#282b35'
+        sorterColor: '#b21889'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#b21889'
+      colonColor: '#00a0be'
+      valueColor: '#939599'
+
+    # Logs styles.
+    logs:
+      fgColor: '#939599'
+      bgColor: '#282b35'

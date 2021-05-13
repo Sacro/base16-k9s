@@ -1,0 +1,75 @@
+# Base16 Nova - k9s color config
+# Scheme author: George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c5d4dd'
+    bgColor: '#3c4c55'
+    logoColor: '#f2c38f'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#7fc1ca'
+    sectionColor: '#c5d4dd'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#83afe5'
+      focusColor: '#f2c38f'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c5d4dd'
+      keyColor: '#7fc1ca'
+      # Used for favorite namespaces
+      numKeyColor: '#7fc1ca'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#f2c38f'
+      bgColor: '#3c4c55'
+      activeColor: '#3c4c55'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c5d4dd'
+      modifyColor: '#a8ce93'
+      addColor: '#7fc1ca'
+      errorColor: '#83afe5'
+      highlightcolor: '#f2c38f'
+      killColor: '#83afe5'
+      completedColor: '#7fc1ca'
+
+    # Border title styles.
+    title:
+      fgColor: '#c5d4dd'
+      bgColor: '#3c4c55'
+      highlightColor: '#9a93e1'
+      counterColor: '#9a93e1'
+      filterColor: '#9a93e1'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#83afe5'
+      bgColor: '#3c4c55'
+      cursorColor: '#f2c38f'
+      # Header row styles.
+      header:
+        fgColor: '#83afe5'
+        bgColor: '#3c4c55'
+        sorterColor: '#9a93e1'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#83afe5'
+      colonColor: '#f2c38f'
+      valueColor: '#c5d4dd'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c5d4dd'
+      bgColor: '#3c4c55'

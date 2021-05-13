@@ -1,0 +1,75 @@
+# Base16 Pop - k9s color config
+# Scheme author: Chris Kempson (http://chriskempson.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#d0d0d0'
+    bgColor: '#000000'
+    logoColor: '#00aabb'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#37b349'
+    sectionColor: '#d0d0d0'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#0e5a94'
+      focusColor: '#00aabb'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#d0d0d0'
+      keyColor: '#37b349'
+      # Used for favorite namespaces
+      numKeyColor: '#37b349'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#00aabb'
+      bgColor: '#000000'
+      activeColor: '#000000'
+
+    # Resource status and update styles
+    status:
+      newColor: '#d0d0d0'
+      modifyColor: '#f8ca12'
+      addColor: '#37b349'
+      errorColor: '#eb008a'
+      highlightcolor: '#00aabb'
+      killColor: '#eb008a'
+      completedColor: '#37b349'
+
+    # Border title styles.
+    title:
+      fgColor: '#d0d0d0'
+      bgColor: '#000000'
+      highlightColor: '#b31e8d'
+      counterColor: '#b31e8d'
+      filterColor: '#b31e8d'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#0e5a94'
+      bgColor: '#000000'
+      cursorColor: '#00aabb'
+      # Header row styles.
+      header:
+        fgColor: '#0e5a94'
+        bgColor: '#000000'
+        sorterColor: '#b31e8d'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#eb008a'
+      colonColor: '#00aabb'
+      valueColor: '#d0d0d0'
+
+    # Logs styles.
+    logs:
+      fgColor: '#d0d0d0'
+      bgColor: '#000000'

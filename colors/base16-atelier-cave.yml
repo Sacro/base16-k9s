@@ -1,0 +1,75 @@
+# Base16 Atelier Cave - k9s color config
+# Scheme author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#8b8792'
+    bgColor: '#19171c'
+    logoColor: '#398bc6'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#2a9292'
+    sectionColor: '#8b8792'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#576ddb'
+      focusColor: '#398bc6'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#8b8792'
+      keyColor: '#2a9292'
+      # Used for favorite namespaces
+      numKeyColor: '#2a9292'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#398bc6'
+      bgColor: '#19171c'
+      activeColor: '#19171c'
+
+    # Resource status and update styles
+    status:
+      newColor: '#8b8792'
+      modifyColor: '#a06e3b'
+      addColor: '#2a9292'
+      errorColor: '#be4678'
+      highlightcolor: '#398bc6'
+      killColor: '#be4678'
+      completedColor: '#2a9292'
+
+    # Border title styles.
+    title:
+      fgColor: '#8b8792'
+      bgColor: '#19171c'
+      highlightColor: '#955ae7'
+      counterColor: '#955ae7'
+      filterColor: '#955ae7'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#576ddb'
+      bgColor: '#19171c'
+      cursorColor: '#398bc6'
+      # Header row styles.
+      header:
+        fgColor: '#576ddb'
+        bgColor: '#19171c'
+        sorterColor: '#955ae7'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#be4678'
+      colonColor: '#398bc6'
+      valueColor: '#8b8792'
+
+    # Logs styles.
+    logs:
+      fgColor: '#8b8792'
+      bgColor: '#19171c'

@@ -1,0 +1,75 @@
+# Base16 Circus - k9s color config
+# Scheme author: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a7a7a7'
+    bgColor: '#191919'
+    logoColor: '#4bb1a7'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#84b97c'
+    sectionColor: '#a7a7a7'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#639ee4'
+      focusColor: '#4bb1a7'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a7a7a7'
+      keyColor: '#84b97c'
+      # Used for favorite namespaces
+      numKeyColor: '#84b97c'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#4bb1a7'
+      bgColor: '#191919'
+      activeColor: '#191919'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a7a7a7'
+      modifyColor: '#c3ba63'
+      addColor: '#84b97c'
+      errorColor: '#dc657d'
+      highlightcolor: '#4bb1a7'
+      killColor: '#dc657d'
+      completedColor: '#84b97c'
+
+    # Border title styles.
+    title:
+      fgColor: '#a7a7a7'
+      bgColor: '#191919'
+      highlightColor: '#b888e2'
+      counterColor: '#b888e2'
+      filterColor: '#b888e2'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#639ee4'
+      bgColor: '#191919'
+      cursorColor: '#4bb1a7'
+      # Header row styles.
+      header:
+        fgColor: '#639ee4'
+        bgColor: '#191919'
+        sorterColor: '#b888e2'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#dc657d'
+      colonColor: '#4bb1a7'
+      valueColor: '#a7a7a7'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a7a7a7'
+      bgColor: '#191919'

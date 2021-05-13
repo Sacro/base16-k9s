@@ -1,0 +1,75 @@
+# Base16 Shades of Purple - k9s color config
+# Scheme author: Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode).
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c7c7c7'
+    bgColor: '#1e1e3f'
+    logoColor: '#00c5c7'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#3ad900'
+    sectionColor: '#c7c7c7'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#6943ff'
+      focusColor: '#00c5c7'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c7c7c7'
+      keyColor: '#3ad900'
+      # Used for favorite namespaces
+      numKeyColor: '#3ad900'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#00c5c7'
+      bgColor: '#1e1e3f'
+      activeColor: '#1e1e3f'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c7c7c7'
+      modifyColor: '#ffe700'
+      addColor: '#3ad900'
+      errorColor: '#d90429'
+      highlightcolor: '#00c5c7'
+      killColor: '#d90429'
+      completedColor: '#3ad900'
+
+    # Border title styles.
+    title:
+      fgColor: '#c7c7c7'
+      bgColor: '#1e1e3f'
+      highlightColor: '#ff2c70'
+      counterColor: '#ff2c70'
+      filterColor: '#ff2c70'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#6943ff'
+      bgColor: '#1e1e3f'
+      cursorColor: '#00c5c7'
+      # Header row styles.
+      header:
+        fgColor: '#6943ff'
+        bgColor: '#1e1e3f'
+        sorterColor: '#ff2c70'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d90429'
+      colonColor: '#00c5c7'
+      valueColor: '#c7c7c7'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c7c7c7'
+      bgColor: '#1e1e3f'

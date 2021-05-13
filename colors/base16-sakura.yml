@@ -1,0 +1,75 @@
+# Base16 Sakura - k9s color config
+# Scheme author: Misterio77 (http://github.com/Misterio77)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#564448'
+    bgColor: '#feedf3'
+    logoColor: '#1d8991'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#2e916d'
+    sectionColor: '#564448'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#006e93'
+      focusColor: '#1d8991'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#564448'
+      keyColor: '#2e916d'
+      # Used for favorite namespaces
+      numKeyColor: '#2e916d'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#1d8991'
+      bgColor: '#feedf3'
+      activeColor: '#feedf3'
+
+    # Resource status and update styles
+    status:
+      newColor: '#564448'
+      modifyColor: '#c29461'
+      addColor: '#2e916d'
+      errorColor: '#df2d52'
+      highlightcolor: '#1d8991'
+      killColor: '#df2d52'
+      completedColor: '#2e916d'
+
+    # Border title styles.
+    title:
+      fgColor: '#564448'
+      bgColor: '#feedf3'
+      highlightColor: '#5e2180'
+      counterColor: '#5e2180'
+      filterColor: '#5e2180'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#006e93'
+      bgColor: '#feedf3'
+      cursorColor: '#1d8991'
+      # Header row styles.
+      header:
+        fgColor: '#006e93'
+        bgColor: '#feedf3'
+        sorterColor: '#5e2180'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#df2d52'
+      colonColor: '#1d8991'
+      valueColor: '#564448'
+
+    # Logs styles.
+    logs:
+      fgColor: '#564448'
+      bgColor: '#feedf3'

@@ -1,0 +1,75 @@
+# Base16 Grayscale Light - k9s color config
+# Scheme author: Alexandre Gavioli (https://github.com/Alexx2/)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#464646'
+    bgColor: '#f7f7f7'
+    logoColor: '#868686'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#8e8e8e'
+    sectionColor: '#464646'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#686868'
+      focusColor: '#868686'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#464646'
+      keyColor: '#8e8e8e'
+      # Used for favorite namespaces
+      numKeyColor: '#8e8e8e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#868686'
+      bgColor: '#f7f7f7'
+      activeColor: '#f7f7f7'
+
+    # Resource status and update styles
+    status:
+      newColor: '#464646'
+      modifyColor: '#a0a0a0'
+      addColor: '#8e8e8e'
+      errorColor: '#7c7c7c'
+      highlightcolor: '#868686'
+      killColor: '#7c7c7c'
+      completedColor: '#8e8e8e'
+
+    # Border title styles.
+    title:
+      fgColor: '#464646'
+      bgColor: '#f7f7f7'
+      highlightColor: '#747474'
+      counterColor: '#747474'
+      filterColor: '#747474'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#686868'
+      bgColor: '#f7f7f7'
+      cursorColor: '#868686'
+      # Header row styles.
+      header:
+        fgColor: '#686868'
+        bgColor: '#f7f7f7'
+        sorterColor: '#747474'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#7c7c7c'
+      colonColor: '#868686'
+      valueColor: '#464646'
+
+    # Logs styles.
+    logs:
+      fgColor: '#464646'
+      bgColor: '#f7f7f7'

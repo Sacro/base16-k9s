@@ -1,0 +1,75 @@
+# Base16 Tango - k9s color config
+# Scheme author: @Schnouki, based on the Tango Desktop Project
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#d3d7cf'
+    bgColor: '#2e3436'
+    logoColor: '#06989a'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#4e9a06'
+    sectionColor: '#d3d7cf'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#3465a4'
+      focusColor: '#06989a'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#d3d7cf'
+      keyColor: '#4e9a06'
+      # Used for favorite namespaces
+      numKeyColor: '#4e9a06'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#06989a'
+      bgColor: '#2e3436'
+      activeColor: '#2e3436'
+
+    # Resource status and update styles
+    status:
+      newColor: '#d3d7cf'
+      modifyColor: '#c4a000'
+      addColor: '#4e9a06'
+      errorColor: '#cc0000'
+      highlightcolor: '#06989a'
+      killColor: '#cc0000'
+      completedColor: '#4e9a06'
+
+    # Border title styles.
+    title:
+      fgColor: '#d3d7cf'
+      bgColor: '#2e3436'
+      highlightColor: '#75507b'
+      counterColor: '#75507b'
+      filterColor: '#75507b'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#3465a4'
+      bgColor: '#2e3436'
+      cursorColor: '#06989a'
+      # Header row styles.
+      header:
+        fgColor: '#3465a4'
+        bgColor: '#2e3436'
+        sorterColor: '#75507b'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#cc0000'
+      colonColor: '#06989a'
+      valueColor: '#d3d7cf'
+
+    # Logs styles.
+    logs:
+      fgColor: '#d3d7cf'
+      bgColor: '#2e3436'

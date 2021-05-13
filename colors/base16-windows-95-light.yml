@@ -1,0 +1,75 @@
+# Base16 Windows 95 Light - k9s color config
+# Scheme author: Fergus Collins (https://github.com/C-Fergus)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#545454'
+    bgColor: '#fcfcfc'
+    logoColor: '#00a8a8'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#00a800'
+    sectionColor: '#545454'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#0000a8'
+      focusColor: '#00a8a8'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#545454'
+      keyColor: '#00a800'
+      # Used for favorite namespaces
+      numKeyColor: '#00a800'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#00a8a8'
+      bgColor: '#fcfcfc'
+      activeColor: '#fcfcfc'
+
+    # Resource status and update styles
+    status:
+      newColor: '#545454'
+      modifyColor: '#a85400'
+      addColor: '#00a800'
+      errorColor: '#a80000'
+      highlightcolor: '#00a8a8'
+      killColor: '#a80000'
+      completedColor: '#00a800'
+
+    # Border title styles.
+    title:
+      fgColor: '#545454'
+      bgColor: '#fcfcfc'
+      highlightColor: '#a800a8'
+      counterColor: '#a800a8'
+      filterColor: '#a800a8'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#0000a8'
+      bgColor: '#fcfcfc'
+      cursorColor: '#00a8a8'
+      # Header row styles.
+      header:
+        fgColor: '#0000a8'
+        bgColor: '#fcfcfc'
+        sorterColor: '#a800a8'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#a80000'
+      colonColor: '#00a8a8'
+      valueColor: '#545454'
+
+    # Logs styles.
+    logs:
+      fgColor: '#545454'
+      bgColor: '#fcfcfc'

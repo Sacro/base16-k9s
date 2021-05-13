@@ -1,0 +1,75 @@
+# Base16 Ashes - k9s color config
+# Scheme author: Jannik Siebert (https://github.com/janniks)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c7ccd1'
+    bgColor: '#1c2023'
+    logoColor: '#95aec7'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#95c7ae'
+    sectionColor: '#c7ccd1'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#ae95c7'
+      focusColor: '#95aec7'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c7ccd1'
+      keyColor: '#95c7ae'
+      # Used for favorite namespaces
+      numKeyColor: '#95c7ae'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#95aec7'
+      bgColor: '#1c2023'
+      activeColor: '#1c2023'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c7ccd1'
+      modifyColor: '#aec795'
+      addColor: '#95c7ae'
+      errorColor: '#c7ae95'
+      highlightcolor: '#95aec7'
+      killColor: '#c7ae95'
+      completedColor: '#95c7ae'
+
+    # Border title styles.
+    title:
+      fgColor: '#c7ccd1'
+      bgColor: '#1c2023'
+      highlightColor: '#c795ae'
+      counterColor: '#c795ae'
+      filterColor: '#c795ae'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#ae95c7'
+      bgColor: '#1c2023'
+      cursorColor: '#95aec7'
+      # Header row styles.
+      header:
+        fgColor: '#ae95c7'
+        bgColor: '#1c2023'
+        sorterColor: '#c795ae'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#c7ae95'
+      colonColor: '#95aec7'
+      valueColor: '#c7ccd1'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c7ccd1'
+      bgColor: '#1c2023'

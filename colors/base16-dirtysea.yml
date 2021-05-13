@@ -1,0 +1,75 @@
+# Base16 dirtysea - k9s color config
+# Scheme author: Kahlil (Kal) Hodgson
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#000000'
+    bgColor: '#e0e0e0'
+    logoColor: '#755b00'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#730073'
+    sectionColor: '#000000'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#007300'
+      focusColor: '#755b00'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#000000'
+      keyColor: '#730073'
+      # Used for favorite namespaces
+      numKeyColor: '#730073'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#755b00'
+      bgColor: '#e0e0e0'
+      activeColor: '#e0e0e0'
+
+    # Resource status and update styles
+    status:
+      newColor: '#000000'
+      modifyColor: '#755b00'
+      addColor: '#730073'
+      errorColor: '#840000'
+      highlightcolor: '#755b00'
+      killColor: '#840000'
+      completedColor: '#730073'
+
+    # Border title styles.
+    title:
+      fgColor: '#000000'
+      bgColor: '#e0e0e0'
+      highlightColor: '#000090'
+      counterColor: '#000090'
+      filterColor: '#000090'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#007300'
+      bgColor: '#e0e0e0'
+      cursorColor: '#755b00'
+      # Header row styles.
+      header:
+        fgColor: '#007300'
+        bgColor: '#e0e0e0'
+        sorterColor: '#000090'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#840000'
+      colonColor: '#755b00'
+      valueColor: '#000000'
+
+    # Logs styles.
+    logs:
+      fgColor: '#000000'
+      bgColor: '#e0e0e0'

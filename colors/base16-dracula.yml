@@ -1,0 +1,75 @@
+# Base16 Dracula - k9s color config
+# Scheme author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#e9e9f4'
+    bgColor: '#282936'
+    logoColor: '#a1efe4'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#ebff87'
+    sectionColor: '#e9e9f4'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#62d6e8'
+      focusColor: '#a1efe4'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#e9e9f4'
+      keyColor: '#ebff87'
+      # Used for favorite namespaces
+      numKeyColor: '#ebff87'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#a1efe4'
+      bgColor: '#282936'
+      activeColor: '#282936'
+
+    # Resource status and update styles
+    status:
+      newColor: '#e9e9f4'
+      modifyColor: '#00f769'
+      addColor: '#ebff87'
+      errorColor: '#ea51b2'
+      highlightcolor: '#a1efe4'
+      killColor: '#ea51b2'
+      completedColor: '#ebff87'
+
+    # Border title styles.
+    title:
+      fgColor: '#e9e9f4'
+      bgColor: '#282936'
+      highlightColor: '#b45bcf'
+      counterColor: '#b45bcf'
+      filterColor: '#b45bcf'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#62d6e8'
+      bgColor: '#282936'
+      cursorColor: '#a1efe4'
+      # Header row styles.
+      header:
+        fgColor: '#62d6e8'
+        bgColor: '#282936'
+        sorterColor: '#b45bcf'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ea51b2'
+      colonColor: '#a1efe4'
+      valueColor: '#e9e9f4'
+
+    # Logs styles.
+    logs:
+      fgColor: '#e9e9f4'
+      bgColor: '#282936'

@@ -1,0 +1,75 @@
+# Base16 Atelier Sulphurpool Light - k9s color config
+# Scheme author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#5e6687'
+    bgColor: '#f5f7ff'
+    logoColor: '#22a2c9'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#ac9739'
+    sectionColor: '#5e6687'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#3d8fd1'
+      focusColor: '#22a2c9'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#5e6687'
+      keyColor: '#ac9739'
+      # Used for favorite namespaces
+      numKeyColor: '#ac9739'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#22a2c9'
+      bgColor: '#f5f7ff'
+      activeColor: '#f5f7ff'
+
+    # Resource status and update styles
+    status:
+      newColor: '#5e6687'
+      modifyColor: '#c08b30'
+      addColor: '#ac9739'
+      errorColor: '#c94922'
+      highlightcolor: '#22a2c9'
+      killColor: '#c94922'
+      completedColor: '#ac9739'
+
+    # Border title styles.
+    title:
+      fgColor: '#5e6687'
+      bgColor: '#f5f7ff'
+      highlightColor: '#6679cc'
+      counterColor: '#6679cc'
+      filterColor: '#6679cc'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#3d8fd1'
+      bgColor: '#f5f7ff'
+      cursorColor: '#22a2c9'
+      # Header row styles.
+      header:
+        fgColor: '#3d8fd1'
+        bgColor: '#f5f7ff'
+        sorterColor: '#6679cc'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#c94922'
+      colonColor: '#22a2c9'
+      valueColor: '#5e6687'
+
+    # Logs styles.
+    logs:
+      fgColor: '#5e6687'
+      bgColor: '#f5f7ff'

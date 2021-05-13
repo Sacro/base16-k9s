@@ -1,0 +1,75 @@
+# Base16 summercamp - k9s color config
+# Scheme author: zoe firi (zoefiri.github.io)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#736e55'
+    bgColor: '#1c1810'
+    logoColor: '#5aebbc'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#5ceb5a'
+    sectionColor: '#736e55'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#489bf0'
+      focusColor: '#5aebbc'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#736e55'
+      keyColor: '#5ceb5a'
+      # Used for favorite namespaces
+      numKeyColor: '#5ceb5a'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#5aebbc'
+      bgColor: '#1c1810'
+      activeColor: '#1c1810'
+
+    # Resource status and update styles
+    status:
+      newColor: '#736e55'
+      modifyColor: '#f2ff27'
+      addColor: '#5ceb5a'
+      errorColor: '#e35142'
+      highlightcolor: '#5aebbc'
+      killColor: '#e35142'
+      completedColor: '#5ceb5a'
+
+    # Border title styles.
+    title:
+      fgColor: '#736e55'
+      bgColor: '#1c1810'
+      highlightColor: '#ff8080'
+      counterColor: '#ff8080'
+      filterColor: '#ff8080'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#489bf0'
+      bgColor: '#1c1810'
+      cursorColor: '#5aebbc'
+      # Header row styles.
+      header:
+        fgColor: '#489bf0'
+        bgColor: '#1c1810'
+        sorterColor: '#ff8080'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#e35142'
+      colonColor: '#5aebbc'
+      valueColor: '#736e55'
+
+    # Logs styles.
+    logs:
+      fgColor: '#736e55'
+      bgColor: '#1c1810'

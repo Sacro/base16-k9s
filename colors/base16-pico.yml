@@ -1,0 +1,75 @@
+# Base16 Pico - k9s color config
+# Scheme author: PICO-8 (http://www.lexaloffle.com/pico-8.php)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#5f574f'
+    bgColor: '#000000'
+    logoColor: '#29adff'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#00e756'
+    sectionColor: '#5f574f'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#83769c'
+      focusColor: '#29adff'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#5f574f'
+      keyColor: '#00e756'
+      # Used for favorite namespaces
+      numKeyColor: '#00e756'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#29adff'
+      bgColor: '#000000'
+      activeColor: '#000000'
+
+    # Resource status and update styles
+    status:
+      newColor: '#5f574f'
+      modifyColor: '#fff024'
+      addColor: '#00e756'
+      errorColor: '#ff004d'
+      highlightcolor: '#29adff'
+      killColor: '#ff004d'
+      completedColor: '#00e756'
+
+    # Border title styles.
+    title:
+      fgColor: '#5f574f'
+      bgColor: '#000000'
+      highlightColor: '#ff77a8'
+      counterColor: '#ff77a8'
+      filterColor: '#ff77a8'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#83769c'
+      bgColor: '#000000'
+      cursorColor: '#29adff'
+      # Header row styles.
+      header:
+        fgColor: '#83769c'
+        bgColor: '#000000'
+        sorterColor: '#ff77a8'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ff004d'
+      colonColor: '#29adff'
+      valueColor: '#5f574f'
+
+    # Logs styles.
+    logs:
+      fgColor: '#5f574f'
+      bgColor: '#000000'

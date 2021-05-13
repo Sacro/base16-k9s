@@ -1,0 +1,75 @@
+# Base16 Macintosh - k9s color config
+# Scheme author: Rebecca Bettencourt (http://www.kreativekorp.com)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#c0c0c0'
+    bgColor: '#000000'
+    logoColor: '#02abea'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#1fb714'
+    sectionColor: '#c0c0c0'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#0000d3'
+      focusColor: '#02abea'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#c0c0c0'
+      keyColor: '#1fb714'
+      # Used for favorite namespaces
+      numKeyColor: '#1fb714'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#02abea'
+      bgColor: '#000000'
+      activeColor: '#000000'
+
+    # Resource status and update styles
+    status:
+      newColor: '#c0c0c0'
+      modifyColor: '#fbf305'
+      addColor: '#1fb714'
+      errorColor: '#dd0907'
+      highlightcolor: '#02abea'
+      killColor: '#dd0907'
+      completedColor: '#1fb714'
+
+    # Border title styles.
+    title:
+      fgColor: '#c0c0c0'
+      bgColor: '#000000'
+      highlightColor: '#4700a5'
+      counterColor: '#4700a5'
+      filterColor: '#4700a5'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#0000d3'
+      bgColor: '#000000'
+      cursorColor: '#02abea'
+      # Header row styles.
+      header:
+        fgColor: '#0000d3'
+        bgColor: '#000000'
+        sorterColor: '#4700a5'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#dd0907'
+      colonColor: '#02abea'
+      valueColor: '#c0c0c0'
+
+    # Logs styles.
+    logs:
+      fgColor: '#c0c0c0'
+      bgColor: '#000000'

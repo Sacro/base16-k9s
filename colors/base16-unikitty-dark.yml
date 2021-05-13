@@ -1,0 +1,75 @@
+# Base16 Unikitty Dark - k9s color config
+# Scheme author: Josh W Lewis (@joshwlewis)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#bcbabe'
+    bgColor: '#2e2a31'
+    logoColor: '#149bda'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#17ad98'
+    sectionColor: '#bcbabe'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#796af5'
+      focusColor: '#149bda'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#bcbabe'
+      keyColor: '#17ad98'
+      # Used for favorite namespaces
+      numKeyColor: '#17ad98'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#149bda'
+      bgColor: '#2e2a31'
+      activeColor: '#2e2a31'
+
+    # Resource status and update styles
+    status:
+      newColor: '#bcbabe'
+      modifyColor: '#dc8a0e'
+      addColor: '#17ad98'
+      errorColor: '#d8137f'
+      highlightcolor: '#149bda'
+      killColor: '#d8137f'
+      completedColor: '#17ad98'
+
+    # Border title styles.
+    title:
+      fgColor: '#bcbabe'
+      bgColor: '#2e2a31'
+      highlightColor: '#bb60ea'
+      counterColor: '#bb60ea'
+      filterColor: '#bb60ea'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#796af5'
+      bgColor: '#2e2a31'
+      cursorColor: '#149bda'
+      # Header row styles.
+      header:
+        fgColor: '#796af5'
+        bgColor: '#2e2a31'
+        sorterColor: '#bb60ea'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d8137f'
+      colonColor: '#149bda'
+      valueColor: '#bcbabe'
+
+    # Logs styles.
+    logs:
+      fgColor: '#bcbabe'
+      bgColor: '#2e2a31'

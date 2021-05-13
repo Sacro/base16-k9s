@@ -1,0 +1,75 @@
+# Base16 Brogrammer - k9s color config
+# Scheme author: Vik Ramanujam (http://github.com/piggyslasher)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#4e5ab7'
+    bgColor: '#1f1f1f'
+    logoColor: '#1081d6'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#f3bd09'
+    sectionColor: '#4e5ab7'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#5350b9'
+      focusColor: '#1081d6'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#4e5ab7'
+      keyColor: '#f3bd09'
+      # Used for favorite namespaces
+      numKeyColor: '#f3bd09'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#1081d6'
+      bgColor: '#1f1f1f'
+      activeColor: '#1f1f1f'
+
+    # Resource status and update styles
+    status:
+      newColor: '#4e5ab7'
+      modifyColor: '#1dd361'
+      addColor: '#f3bd09'
+      errorColor: '#d6dbe5'
+      highlightcolor: '#1081d6'
+      killColor: '#d6dbe5'
+      completedColor: '#f3bd09'
+
+    # Border title styles.
+    title:
+      fgColor: '#4e5ab7'
+      bgColor: '#1f1f1f'
+      highlightColor: '#0f7ddb'
+      counterColor: '#0f7ddb'
+      filterColor: '#0f7ddb'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#5350b9'
+      bgColor: '#1f1f1f'
+      cursorColor: '#1081d6'
+      # Header row styles.
+      header:
+        fgColor: '#5350b9'
+        bgColor: '#1f1f1f'
+        sorterColor: '#0f7ddb'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#d6dbe5'
+      colonColor: '#1081d6'
+      valueColor: '#4e5ab7'
+
+    # Logs styles.
+    logs:
+      fgColor: '#4e5ab7'
+      bgColor: '#1f1f1f'

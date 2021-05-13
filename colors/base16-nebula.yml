@@ -1,0 +1,75 @@
+# Base16 Nebula - k9s color config
+# Scheme author: Gabriel Fontes (https://github.com/Misterio77)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#a4a6a9'
+    bgColor: '#22273b'
+    logoColor: '#226f68'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#6562a8'
+    sectionColor: '#a4a6a9'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#4d6bb6'
+      focusColor: '#226f68'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#a4a6a9'
+      keyColor: '#6562a8'
+      # Used for favorite namespaces
+      numKeyColor: '#6562a8'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#226f68'
+      bgColor: '#22273b'
+      activeColor: '#22273b'
+
+    # Resource status and update styles
+    status:
+      newColor: '#a4a6a9'
+      modifyColor: '#4f9062'
+      addColor: '#6562a8'
+      errorColor: '#777abc'
+      highlightcolor: '#226f68'
+      killColor: '#777abc'
+      completedColor: '#6562a8'
+
+    # Border title styles.
+    title:
+      fgColor: '#a4a6a9'
+      bgColor: '#22273b'
+      highlightColor: '#716cae'
+      counterColor: '#716cae'
+      filterColor: '#716cae'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#4d6bb6'
+      bgColor: '#22273b'
+      cursorColor: '#226f68'
+      # Header row styles.
+      header:
+        fgColor: '#4d6bb6'
+        bgColor: '#22273b'
+        sorterColor: '#716cae'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#777abc'
+      colonColor: '#226f68'
+      valueColor: '#a4a6a9'
+
+    # Logs styles.
+    logs:
+      fgColor: '#a4a6a9'
+      bgColor: '#22273b'

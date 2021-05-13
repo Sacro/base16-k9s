@@ -1,0 +1,75 @@
+# Base16 Rosé Pine Dawn - k9s color config
+# Scheme author: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#575279'
+    bgColor: '#faf4ed'
+    logoColor: '#286983'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#d7827e'
+    sectionColor: '#575279'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#56949f'
+      focusColor: '#286983'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#575279'
+      keyColor: '#d7827e'
+      # Used for favorite namespaces
+      numKeyColor: '#d7827e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#286983'
+      bgColor: '#faf4ed'
+      activeColor: '#faf4ed'
+
+    # Resource status and update styles
+    status:
+      newColor: '#575279'
+      modifyColor: '#ea9d34'
+      addColor: '#d7827e'
+      errorColor: '#1f1d2e'
+      highlightcolor: '#286983'
+      killColor: '#1f1d2e'
+      completedColor: '#d7827e'
+
+    # Border title styles.
+    title:
+      fgColor: '#575279'
+      bgColor: '#faf4ed'
+      highlightColor: '#907aa9'
+      counterColor: '#907aa9'
+      filterColor: '#907aa9'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#56949f'
+      bgColor: '#faf4ed'
+      cursorColor: '#286983'
+      # Header row styles.
+      header:
+        fgColor: '#56949f'
+        bgColor: '#faf4ed'
+        sorterColor: '#907aa9'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#1f1d2e'
+      colonColor: '#286983'
+      valueColor: '#575279'
+
+    # Logs styles.
+    logs:
+      fgColor: '#575279'
+      bgColor: '#faf4ed'

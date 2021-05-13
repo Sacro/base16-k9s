@@ -1,0 +1,75 @@
+# Base16 Rebecca - k9s color config
+# Scheme author: Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#f1eff8'
+    bgColor: '#292a44'
+    logoColor: '#8eaee0'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#6dfedf'
+    sectionColor: '#f1eff8'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#2de0a7'
+      focusColor: '#8eaee0'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#f1eff8'
+      keyColor: '#6dfedf'
+      # Used for favorite namespaces
+      numKeyColor: '#6dfedf'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#8eaee0'
+      bgColor: '#292a44'
+      activeColor: '#292a44'
+
+    # Resource status and update styles
+    status:
+      newColor: '#f1eff8'
+      modifyColor: '#ae81ff'
+      addColor: '#6dfedf'
+      errorColor: '#a0a0c5'
+      highlightcolor: '#8eaee0'
+      killColor: '#a0a0c5'
+      completedColor: '#6dfedf'
+
+    # Border title styles.
+    title:
+      fgColor: '#f1eff8'
+      bgColor: '#292a44'
+      highlightColor: '#7aa5ff'
+      counterColor: '#7aa5ff'
+      filterColor: '#7aa5ff'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#2de0a7'
+      bgColor: '#292a44'
+      cursorColor: '#8eaee0'
+      # Header row styles.
+      header:
+        fgColor: '#2de0a7'
+        bgColor: '#292a44'
+        sorterColor: '#7aa5ff'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#a0a0c5'
+      colonColor: '#8eaee0'
+      valueColor: '#f1eff8'
+
+    # Logs styles.
+    logs:
+      fgColor: '#f1eff8'
+      bgColor: '#292a44'

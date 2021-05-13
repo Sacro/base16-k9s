@@ -1,0 +1,75 @@
+# Base16 London Tube - k9s color config
+# Scheme author: Jan T. Sott
+# Template author: Jef LeCompte (https://jef.buzz)
+k9s:
+  # General K9s styles
+  body:
+    fgColor: '#d9d8d8'
+    bgColor: '#231f20'
+    logoColor: '#85cebc'
+
+  # ClusterInfoView styles
+  info:
+    fgColor: '#00853e'
+    sectionColor: '#d9d8d8'
+
+  # Frame styles
+  frame:
+    # Borders styles
+    border:
+      fgColor: '#009ddc'
+      focusColor: '#85cebc'
+
+    # MenuView attributes and styles
+    menu:
+      fgColor: '#d9d8d8'
+      keyColor: '#00853e'
+      # Used for favorite namespaces
+      numKeyColor: '#00853e'
+
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: '#85cebc'
+      bgColor: '#231f20'
+      activeColor: '#231f20'
+
+    # Resource status and update styles
+    status:
+      newColor: '#d9d8d8'
+      modifyColor: '#ffd204'
+      addColor: '#00853e'
+      errorColor: '#ee2e24'
+      highlightcolor: '#85cebc'
+      killColor: '#ee2e24'
+      completedColor: '#00853e'
+
+    # Border title styles.
+    title:
+      fgColor: '#d9d8d8'
+      bgColor: '#231f20'
+      highlightColor: '#98005d'
+      counterColor: '#98005d'
+      filterColor: '#98005d'
+  # Specific views styles
+  views:
+    # TableView attributes.
+    table:
+      fgColor: '#009ddc'
+      bgColor: '#231f20'
+      cursorColor: '#85cebc'
+      # Header row styles.
+      header:
+        fgColor: '#009ddc'
+        bgColor: '#231f20'
+        sorterColor: '#98005d'
+
+    # YAML info styles.
+    yaml:
+      keyColor: '#ee2e24'
+      colonColor: '#85cebc'
+      valueColor: '#d9d8d8'
+
+    # Logs styles.
+    logs:
+      fgColor: '#d9d8d8'
+      bgColor: '#231f20'
